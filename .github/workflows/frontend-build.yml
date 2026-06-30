@@ -1,0 +1,68 @@
+name: Frontend Build
+
+on:
+  push:
+    branches:
+      - main
+      - zh-cn-complete
+    paths:
+      - "frontend/**"
+      - "shared/**"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "package.json"
+      - ".github/workflows/frontend-build.yml"
+  pull_request:
+    paths:
+      - "frontend/**"
+      - "shared/**"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "package.json"
+      - ".github/workflows/frontend-build.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-frontend:
+    name: Build Frontend
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v5
+        with:
+          version: 11
+          run_install: false
+
+      - name: Install frontend dependencies
+        run: |
+          cd frontend
+          pnpm install
+
+      - name: Check Simplified Chinese translation
+        run: |
+          cd frontend
+          pnpm diff:translations public/translations/zh.json --check
+
+      - name: Build frontend
+        run: |
+          cd frontend
+          pnpm build
+
+      - name: Upload frontend dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist
+          if-no-files-found: error
