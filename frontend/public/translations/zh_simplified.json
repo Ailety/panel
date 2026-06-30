@@ -1,0 +1,4419 @@
+{
+  "items": {
+    "byte": {
+      "zero": "{count} 字节",
+      "one": "{count} 字节",
+      "two": "{count} 字节",
+      "few": "{count} 字节",
+      "many": "{count} 字节",
+      "other": "{count} 字节"
+    },
+    "user": {
+      "zero": "{count} 位用户",
+      "one": "{count} 位用户",
+      "two": "{count} 位用户",
+      "few": "{count} 位用户",
+      "many": "{count} 位用户",
+      "other": "{count} 位用户"
+    },
+    "file": {
+      "zero": "{count} 个文件",
+      "one": "{count} 个文件",
+      "two": "{count} 个文件",
+      "few": "{count} 个文件",
+      "many": "{count} 个文件",
+      "other": "{count} 个文件"
+    },
+    "server": {
+      "zero": "{count} 台服务器",
+      "one": "{count} 台服务器",
+      "two": "{count} 台服务器",
+      "few": "{count} 台服务器",
+      "many": "{count} 台服务器",
+      "other": "{count} 台服务器"
+    },
+    "sshKey": {
+      "zero": "{count} 个 SSH 密钥",
+      "one": "{count} 个 SSH 密钥",
+      "two": "{count} 个 SSH 密钥",
+      "few": "{count} 个 SSH 密钥",
+      "many": "{count} 个 SSH 密钥",
+      "other": "{count} 个 SSH 密钥"
+    },
+    "asset": {
+      "zero": "{count} 个资产",
+      "one": "{count} 个资产",
+      "two": "{count} 个资产",
+      "few": "{count} 个资产",
+      "many": "{count} 个资产",
+      "other": "{count} 个资产"
+    },
+    "node": {
+      "zero": "{count} 个节点",
+      "one": "{count} 个节点",
+      "two": "{count} 个节点",
+      "few": "{count} 个节点",
+      "many": "{count} 个节点",
+      "other": "{count} 个节点"
+    },
+    "allocation": {
+      "zero": "{count} 个节点分配",
+      "one": "{count} 个节点分配",
+      "two": "{count} 个节点分配",
+      "few": "{count} 个节点分配",
+      "many": "{count} 个节点分配",
+      "other": "{count} 个节点分配"
+    },
+    "egg": {
+      "zero": "{count} 个 Egg",
+      "one": "{count} 个 Egg",
+      "two": "{count} 个 Egg",
+      "few": "{count} 个 Egg",
+      "many": "{count} 个 Egg",
+      "other": "{count} 个 Egg"
+    },
+    "shortcut": {
+      "zero": "{count} 个快捷键",
+      "one": "{count} 个快捷键",
+      "two": "{count} 个快捷键",
+      "few": "{count} 个快捷键",
+      "many": "{count} 个快捷键",
+      "other": "{count} 个快捷键"
+    },
+    "line": {
+      "zero": "{count} 行",
+      "one": "{count} 行",
+      "two": "{count} 行",
+      "few": "{count} 行",
+      "many": "{count} 行",
+      "other": "{count} 行"
+    }
+  },
+  "translations": {
+    "common": {
+      "button": {
+        "create": "创建",
+        "add": "添加",
+        "save": "保存",
+        "saveAndStay": "保存并停留",
+        "edit": "编辑",
+        "delete": "删除",
+        "remove": "移除",
+        "enable": "激活",
+        "disable": "停用",
+        "update": "更新",
+        "close": "关闭",
+        "cancel": "取消",
+        "continue": "继续",
+        "skip": "略过",
+        "okay": "确定",
+        "back": "返回",
+        "next": "下一步",
+        "install": "安装",
+        "selectAll": "全选",
+        "deselectAll": "取消全选",
+        "restore": "还原",
+        "discard": "舍弃",
+        "download": "下载",
+        "downloadAs": "下载为 {format}",
+        "export": "导出",
+        "exportAs": "导出为 {format}",
+        "recreate": "重新创建",
+        "move": "移动",
+        "transfer": "转移",
+        "reattach": "重新附加",
+        "detach": "卸离",
+        "send": "发送",
+        "reset": "重设",
+        "view": "查看",
+        "import": "导入",
+        "details": "详细信息",
+        "loadLogs": "加载纪录",
+        "sendTestEmail": "发送测试邮件",
+        "setPrimary": "设为主要",
+        "unsetPrimary": "取消主要",
+        "leavePage": "离开页面",
+        "viewDocumentation": "查看文档"
+      },
+      "alert": {
+        "error": "错误",
+        "warning": "警告",
+        "success": "成功",
+        "clockOffset": "你的系统时钟与服务器相差超过 5 秒。这可能会造成通行密钥验证与双因素验证问题。若发生问题，请同步你的时钟。目前偏移：{offset} 秒。"
+      },
+      "divider": {
+        "or": "或"
+      },
+      "input": {
+        "search": "搜索..."
+      },
+      "tooltip": {
+        "resetToDefault": "重设为默认值",
+        "edit": "编辑",
+        "delete": "删除",
+        "remove": "移除",
+        "primary": "主要",
+        "backupOnDifferentNode": "此备份位于与服务器不同的节点上，无法从客户端 API 查看。"
+      },
+      "form": {
+        "name": "名称",
+        "description": "描述",
+        "author": "作者",
+        "type": "类型",
+        "password": "密码",
+        "host": "主机",
+        "username": "用户名",
+        "usernameOrEmail": "用户名/电子邮件",
+        "server": "服务器",
+        "url": "URL",
+        "email": "电子邮件",
+        "path": "路径",
+        "port": "连接端口",
+        "provider": "提供者",
+        "command": "指令",
+        "fromAddress": "寄件人地址",
+        "fromName": "寄件人名称",
+        "siteKey": "网站密钥",
+        "secretKey": "密钥",
+        "apiKey": "API 密钥",
+        "accessKey": "访问密钥",
+        "bucket": "保存桶",
+        "region": "区域",
+        "endpoint": "端点",
+        "publicUrl": "公开 URL",
+        "firstName": "名字",
+        "lastName": "姓氏",
+        "language": "语言",
+        "identifier": "识别码",
+        "enabled": "已激活",
+        "title": "标题",
+        "content": "内容",
+        "backupConfiguration": "备份设置",
+        "fileName": "文件名称",
+        "sftpPort": "SFTP 连接端口",
+        "sftpHost": "SFTP 主机",
+        "dockerImage": "Docker 映像档",
+        "memory": "内存",
+        "disk": "磁盘",
+        "serverName": "服务器名称",
+        "startupCommand": "启动指令",
+        "archiveName": "压缩文件名称",
+        "archiveFormat": "压缩格式",
+        "compressionLevel": "压缩等级",
+        "multiplexChannels": "多任务信道",
+        "multiplexChannelsDescription": "添加额外的 HTTP 连接（以及对应的线程）用于传输分割的压缩档，总串流数为 1 + 多任务信道数。",
+        "deleteSourceBackups": "删除来源备份",
+        "deleteSourceBackupsDescription": "转移完成后删除来源节点上已转移的备份。",
+        "node": "节点",
+        "primaryAllocation": "主要分配",
+        "additionalAllocations": "额外分配",
+        "externalId": "外部 ID",
+        "mount": "挂载",
+        "nest": "Nest",
+        "lines": "行数",
+        "databaseHost": "数据库主机",
+        "timezone": "时区",
+        "timezoneSystem": "系统",
+        "protocol": "通信协定",
+        "powerAction": "电源动作",
+        "destination": "目的地",
+        "directoryName": "目录名称",
+        "locked": "已锁定",
+        "portRanges": "连接端口范围",
+        "portRangesPlaceholder": "连接端口范围（例如 3000-4000）",
+        "currentPassword": "目前密码",
+        "confirmPassword": "确认密码",
+        "authenticationCode": "验证代码",
+        "restoreStartup": "从此备份还原启动指令、映像档及变量。",
+        "lineContains": "行包含",
+        "filePath": "文件路径",
+        "envVariable": "环境变量",
+        "value": "值",
+        "eggs": "Egg",
+        "ignoredFiles": "忽略的文件",
+        "yourControlPanelPassword": "你的控制面板密码",
+        "deploymentEnabled": "部署已激活",
+        "maintenanceEnabled": "维护已激活",
+        "truncateDirectory": "你要在运行此动作前删除此服务器的所有文件吗？此操作无法复原。"
+      },
+      "table": {
+        "pagination": {
+          "results": "显示第 {start} 至 {end} 笔，共 {total} 笔结果。",
+          "empty": "找不到任何项目，它们好像躲起来了。"
+        },
+        "columns": {
+          "id": "ID",
+          "name": "名称",
+          "author": "作者",
+          "type": "类型",
+          "title": "标题",
+          "enabled": "已激活",
+          "description": "描述",
+          "username": "用户名",
+          "size": "大小",
+          "lastUsed": "上次使用",
+          "created": "已创建",
+          "actor": "操作者",
+          "event": "事件",
+          "ip": "IP",
+          "when": "时间",
+          "command": "指令",
+          "location": "位置",
+          "node": "节点",
+          "owner": "拥有者",
+          "added": "已添加",
+          "backupConfiguration": "备份设置",
+          "status": "状态",
+          "allocation": "分配",
+          "notes": "备注",
+          "source": "来源",
+          "target": "目标",
+          "checksum": "校验和",
+          "files": "文件",
+          "server": "服务器",
+          "address": "地址",
+          "eggs": "Egg"
+        }
+      },
+      "tabs": {
+        "general": "一般"
+      },
+      "badge": {
+        "active": "作用中",
+        "inactive": "未作用",
+        "enabled": "已激活",
+        "disabled": "已停用",
+        "successful": "成功",
+        "failed": "失败",
+        "installed": "已安装"
+      },
+      "server": {
+        "noAllocation": "无分配",
+        "state": {
+          "suspended": "已停权",
+          "transferring": "服务器正在转移",
+          "nodeMaintenance": "节点正在维护中",
+          "restoringBackup": "正在还原备份",
+          "installing": "正在安装",
+          "installFailed": "安装失败"
+        }
+      },
+      "enum": {
+        "userToastPosition": {
+          "topLeft": "左上",
+          "topCenter": "上方置中",
+          "topRight": "右上",
+          "bottomLeft": "左下",
+          "bottomCenter": "下方置中",
+          "bottomRight": "右下"
+        },
+        "serverState": {
+          "unknown": "未知",
+          "offline": "脱机",
+          "running": "运行中",
+          "starting": "启动中",
+          "stopping": "停止中"
+        },
+        "serverPowerAction": {
+          "start": "启动",
+          "stop": "停止",
+          "restart": "重新启动",
+          "kill": "强制终止"
+        },
+        "serverBackupStatus": {
+          "starting": "开始中",
+          "finished": "已完成",
+          "failed": "失败"
+        },
+        "connectionStatus": {
+          "connected": "已连接",
+          "offline": "脱机"
+        },
+        "serverAutoStartBehavior": {
+          "always": "永远",
+          "unlessStopped": "除非已停止",
+          "never": "永不"
+        },
+        "bulkActionServerAction": {
+          "started": "已启动",
+          "stopped": "已停止",
+          "restarted": "已重新启动",
+          "killed": "已强制终止"
+        }
+      },
+      "unit": {
+        "bytes": {
+          "bytes": "B",
+          "kibibytes": "KiB",
+          "mebibytes": "MiB",
+          "gibibytes": "GiB",
+          "tebibytes": "TiB",
+          "pebibytes": "PiB"
+        }
+      },
+      "unlimited": "无限制",
+      "readOnly": "唯读",
+      "na": "N/A",
+      "never": "永不",
+      "none": "无",
+      "unknown": "未知",
+      "yes": "是",
+      "no": "否",
+      "web": "网页",
+      "api": "API",
+      "default": "缺省",
+      "custom": "自订",
+      "system": "系统",
+      "schedule": "调度",
+      "impersonatedBy": "由 {username} 仿真身分"
+    },
+    "elements": {
+      "routeOrderEditor": {
+        "title": "路由设置",
+        "label": {
+          "route": "路由",
+          "divider": "分隔线",
+          "redirect": "重新导向"
+        },
+        "empty": "尚未设置路由。请在下方添加路由、分隔线或重新导向。",
+        "unnamed": "（未命名）",
+        "dividerPlaceholder": "分隔线标签（选填）",
+        "redirectNamePlaceholder": "重新导向名称",
+        "destinationPlaceholder": "目标 URL（例如 https://...）",
+        "selectRoutePlaceholder": "选取路由…",
+        "button": {
+          "addDivider": "添加分隔线",
+          "addRedirect": "添加重新导向"
+        }
+      },
+      "errorBoundary": {
+        "message": "呈现此页面时发生未预期的错误。请尝试刷新。若问题持续发生，请联系你的系统管理员。",
+        "hideDetails": "隐藏详细信息",
+        "showDetails": "显示详细信息",
+        "errorMessage": "错误消息：",
+        "stackTrace": "堆栈追踪：",
+        "componentStack": "组件堆栈："
+      },
+      "copyOnClick": {
+        "toast": {
+          "copied": "已拷贝到剪贴板。",
+          "failed": "无法拷贝到剪贴板。",
+          "copyManual": "拷贝到剪贴板：Ctrl+C 或 Command+C，Enter"
+        }
+      },
+      "pasteOnClick": {
+        "toast": {
+          "pasted": "已从剪贴板粘贴。",
+          "failed": "无法从剪贴板粘贴。",
+          "pasteManual": "从剪贴板粘贴：Ctrl+V 或 Command+V，Enter"
+        }
+      },
+      "estimatedTimeArrival": {
+        "tooltip": {
+          "estimating": "正在估算完成时间...",
+          "estimated": "预估完成时间：{time}"
+        },
+        "calculating": "预估时间：计算中...",
+        "calculated": "预估时间：{time}"
+      },
+      "container": {
+        "alert": {
+          "impersonating": "你目前正在仿真某位用户的身分。请注意，你的操作可能会影响被仿真用户的帐户。若要离开仿真身分模式，请点击左下角的「停止仿真身分」按钮。"
+        }
+      },
+      "sidebar": {
+        "button": {
+          "logout": "注销",
+          "stopImpersonating": "停止仿真身分",
+          "openInVirtualWindow": "在虚拟窗口中打开",
+          "openInPopup": "在弹出窗口中打开",
+          "openInNewTab": "在新分页中打开",
+          "switchToDark": "切换至深色模式",
+          "switchToLight": "切换至浅色模式"
+        }
+      },
+      "permissionSelector": {
+        "button": {
+          "copyPermissions": "拷贝权限",
+          "pastePermissions": "粘贴权限"
+        },
+        "selectedPermissions": "已选取权限（{count}）",
+        "noPermissions": "未选取任何权限。"
+      },
+      "selectInput": {
+        "noResults": "找不到结果。"
+      },
+      "can": {
+        "tooltip": {
+          "cantSave": "你没有保存权限。",
+          "cantDelete": "你没有删除权限。"
+        }
+      },
+      "resource": {
+        "tooltip": {
+          "created": "已创建 {resource}。",
+          "updated": "已更新 {resource}。",
+          "deleted": "已删除 {resource}。"
+        }
+      },
+      "activityInfoButton": {
+        "modal": {
+          "info": {
+            "title": "活动详细信息"
+          }
+        }
+      },
+      "screenBlock": {
+        "permissionDenied": {
+          "title": "权限不足",
+          "content": "你没有访问此页面的权限。"
+        },
+        "notFound": {
+          "title": "找不到",
+          "content": "找不到你要查看的页面。"
+        },
+        "suspended": {
+          "title": "帐户已停权",
+          "content": "你的帐户已被停权，无法对帐户进行任何变更。请联系管理员以取得更多信息。"
+        },
+        "serverConflict": {
+          "title": "服务器状态冲突",
+          "contentSuspended": "此服务器已停权，无法访问。",
+          "contentNodeMaintenance": "此服务器所在的节点目前正在维护，无法访问。",
+          "contentTransferring": "此服务器目前正在转移，完成前无法访问。",
+          "contentInstallFailed": "此服务器安装失败，在确认前无法访问。",
+          "contentInstalling": "此服务器目前正在安装，完成前无法访问。",
+          "contentRestoringBackup": "此服务器目前正在从备份还原，完成前无法访问。",
+          "button": {
+            "viewInstallLogs": "查看安装纪录",
+            "acknowledgeFailure": "确认失败"
+          },
+          "modal": {
+            "acknowledgeFailure": {
+              "title": "确认安装失败",
+              "content": "确认此安装失败即表示你知道安装失败，并已采取必要步骤解决问题。这会让你重新取得服务器控制权。"
+            }
+          }
+        }
+      },
+      "scheduleDynamicInput": {
+        "enterVariable": "请输入要评估的变量名称。",
+        "enterData": "请输入要发送的数据。",
+        "inputType": "输入类型",
+        "dataType": "要发送的数据类型",
+        "selectType": "选取类型",
+        "none": "无",
+        "rawString": "原始字符串",
+        "variable": "变量"
+      },
+      "serverWebsocket": {
+        "error": {
+          "connectionFailed": "多次尝试后仍无法连接。请刷新页面。",
+          "connectionClosed": "与服务器的连接已关闭。正在尝试重新连接...",
+          "connectionRetry": "连接中断。正在重试（第 {attempt} 次）...",
+          "authFailed": "验证失败。正在尝试刷新凭证...（{error}）",
+          "authRefreshFailed": "无法刷新凭证。请刷新页面后再试。",
+          "permissionRevoked": "连接已关闭：你对此服务器的访问权已被撤销。",
+          "tokenRefreshLoop": "侦测到验证循环。请刷新页面后再试。"
+        },
+        "banner": {
+          "retrying": "{countdown} 后重试..."
+        },
+        "listener": {
+          "toast": {
+            "backupCompleted": "备份已成功完成。",
+            "backupFailed": "备份失败。",
+            "backupRestoreCompleted": "备份还原已成功完成。",
+            "installCompleted": "服务器安装已成功完成。",
+            "installFailed": "服务器安装失败。",
+            "operations": {
+              "compressing": {
+                "completed": "已在 {time} 内将 {files} 压缩到 `{path}`。",
+                "failed": "无法将 {files} 压缩到 `{path}`：\n{error}"
+              },
+              "decompressing": {
+                "completed": "已在 {time} 内将 `{path}` 解压缩到 `{destination}`。",
+                "failed": "无法将 `{path}` 解压缩到 `{destination}`：\n{error}"
+              },
+              "pulling": {
+                "completed": "已在 {time} 内拉取 `{destination}`。",
+                "failed": "无法拉取 `{destination}`：\n{error}"
+              },
+              "copying": {
+                "completed": "已在 {time} 内将 `{path}` 拷贝到 `{destination}`。",
+                "failed": "无法将 `{path}` 拷贝到 `{destination}`：\n{error}"
+              },
+              "copyingMany": {
+                "completed": "已在 {time} 内拷贝 {files}。",
+                "failed": "无法拷贝 {files}：\n{error}"
+              },
+              "copyingRemote": {
+                "completedFrom": "已在 {time} 内从远程服务器拷贝 {files}。",
+                "completedTo": "已在 {time} 内将 {files} 拷贝到远程服务器。",
+                "failedFrom": "无法从远程服务器拷贝 {files}：\n{error}",
+                "failedTo": "无法将 {files} 拷贝到远程服务器：\n{error}"
+              }
+            }
+          }
+        }
+      },
+      "fileUpload": {
+        "toast": {
+          "uploading": "已开始上传 {files}...",
+          "cancelledFile": "已成功取消上传 `{file}`。",
+          "cancelledFolder": "已成功取消上传 `{folder}`（{files}）。",
+          "cancelledAll": "所有上传都已取消。"
+        }
+      }
+    },
+    "pages": {
+      "oobe": {
+        "welcome": {
+          "title": "欢迎使用 Calagopus",
+          "subtitle": "让我们开始设置你的游戏服务器管理系统！",
+          "wizardIntro": "此设置精灵会引导你完成：",
+          "steps": {
+            "account": "创建你的管理员帐户",
+            "settings": "设置必要的系统设置",
+            "location": "设置你的服务器位置",
+            "node": "添加你的第一个节点",
+            "server": "部署你的第一台游戏服务器"
+          },
+          "button": {
+            "start": "开始使用"
+          }
+        },
+        "register": {
+          "title": "创建管理员帐户",
+          "alert": {
+            "title": "安全性提醒",
+            "description": "请选择强密码。此帐户将拥有所有服务器与设置的完整管理权限。"
+          },
+          "form": {
+            "usernamePlaceholder": "admin",
+            "email": "电子邮件地址",
+            "emailPlaceholder": "admin@example.com",
+            "firstNamePlaceholder": "Alan",
+            "lastNamePlaceholder": "Turing",
+            "passwordPlaceholder": "输入强密码",
+            "confirmPasswordPlaceholder": "重新输入你的密码"
+          },
+          "button": {
+            "create": "创建帐户并继续"
+          }
+        },
+        "login": {
+          "title": "重新登录",
+          "alert": "你在设置过程中被注销。请重新登录以从离开的地方继续。",
+          "form": {
+            "usernamePlaceholder": "admin",
+            "passwordPlaceholder": "输入强密码"
+          },
+          "button": {
+            "login": "登录并继续"
+          }
+        },
+        "location": {
+          "title": "位置设置",
+          "form": {
+            "locationName": "位置名称",
+            "locationNamePlaceholder": "我的家",
+            "locationFlag": "位置旗帜",
+            "locationFlagPlaceholder": "最棒的国家",
+            "backupName": "备份设置名称",
+            "backupNamePlaceholder": "Unicorn Cloud",
+            "backupDisk": "备份磁盘",
+            "backupDiskPlaceholder": "备份磁盘"
+          },
+          "button": {
+            "create": "创建并继续"
+          }
+        },
+        "node": {
+          "title": "节点设置",
+          "allocationsTitle": "分配设置",
+          "form": {
+            "name": "名称",
+            "namePlaceholder": "我的服务器",
+            "urlPlaceholder": "URL",
+            "urlDescription": "用于与节点进行内部通信",
+            "publicUrl": "公开 URL",
+            "publicUrlPlaceholder": "URL",
+            "publicUrlDescription": "用于 websocket/下载",
+            "sftpHostPlaceholder": "SFTP 主机",
+            "sftpPortPlaceholder": "SFTP 连接端口",
+            "ip": "IP"
+          },
+          "error": {
+            "noLocations": "发生错误。找不到任何位置。"
+          },
+          "button": {
+            "create": "创建并继续"
+          }
+        },
+        "nodeConfiguration": {
+          "title": "节点设置",
+          "error": {
+            "noNodes": "发生错误。找不到任何节点。",
+            "connectionError": "发生错误。连接错误。"
+          },
+          "successMessage": "已成功验证与节点的连接。你现在可以继续。",
+          "configurationDescription": "将此内容放入 `{file}` 的设置档中，或运行：",
+          "button": {
+            "verify": "验证连接"
+          }
+        },
+        "configuration": {
+          "title": "应用程序设置",
+          "form": {
+            "applicationName": "应用程序名称",
+            "applicationNamePlaceholder": "Calagopus",
+            "languagePlaceholder": "语言",
+            "applicationUrl": "应用程序 URL",
+            "applicationUrlPlaceholder": "https://calagop.us",
+            "registration": "激活注册",
+            "registrationDescription": "允许新用户自行注册帐户。"
+          },
+          "button": {
+            "submit": "更新设置并继续"
+          }
+        },
+        "eggRepositories": {
+          "title": "Egg 保存库",
+          "description": "这些是你的 Egg 来源保存库。你可以随时变更这些保存库。",
+          "repositories": {
+            "pterodactylGame": {
+              "title": "Pterodactyl 游戏 Egg",
+              "description": "Minecraft、Terraria 等许多游戏的 Egg。"
+            },
+            "pterodactylApplication": {
+              "title": "Pterodactyl 应用程序 Egg",
+              "description": "Grafana、Meilisearch 与各种数据库等应用程序的 Egg。"
+            },
+            "pterodactylGeneral": {
+              "title": "Pterodactyl 通用 Egg",
+              "description": "Node JS、Java、Rust 等通用应用程序运行环境的 Egg。"
+            }
+          }
+        },
+        "server": {
+          "title": "服务器",
+          "existingServer": "已创建服务器。你稍后可以在管理菜单中变更设置。",
+          "egg": {
+            "title": "Egg",
+            "description": "让我们启动并运行你的第一台服务器。你想使用哪个 Egg？",
+            "nestDescription": "若要开始使用此 Egg，你需要创建一个 Nest；Nest 是 Egg 的集合。请为它命名："
+          },
+          "server": {
+            "title": "服务器",
+            "nestDescription": "若要开始使用此 Egg，你需要创建一个 Nest；Nest 是 Egg 的集合。请为它命名："
+          },
+          "error": {
+            "noNodes": "发生错误。找不到任何节点。"
+          },
+          "button": {
+            "create": "创建并继续"
+          }
+        },
+        "finished": {
+          "title": "设置完成！",
+          "subtitle": "你的 Calagopus 面板已可使用",
+          "setupTitle": "我们已设置的内容",
+          "items": {
+            "account": "管理员帐户",
+            "configuration": {
+              "title": "系统设置",
+              "subtitle": "已设置面板设置与偏好"
+            },
+            "eggRepositories": {
+              "title": "Egg 保存库",
+              "subtitle": "{count} 个保存库"
+            },
+            "location": "位置",
+            "node": "节点",
+            "server": "服务器"
+          },
+          "badge": {
+            "skipped": "已略过"
+          },
+          "button": "前往仪表板"
+        }
+      },
+      "auth": {
+        "button": {
+          "login": "登录",
+          "loginWith": "使用 {name} 登录"
+        },
+        "alert": {
+          "urlMismatch": "应用程序 URL 与目前 URL 不符。预期：`{appUrl}`，目前：`{currentUrl}`。"
+        },
+        "login": {
+          "error": {
+            "usernameRequired": "请输入用户名",
+            "registrationDisabled": "找不到相符帐户，且目前已停用注册。",
+            "userAlreadyExists": "已有使用此用户名或电子邮件的帐户。"
+          },
+          "passkey": {
+            "error": {
+              "notSupported": "你的浏览器不支持通行密钥。",
+              "unexpected": "使用通行密钥时发生未预期的错误。",
+              "cancelled": "通行密钥要求已取消。",
+              "dismissed": "你关闭或未与通行密钥提示交互。使用的密钥也可能尚未注册。",
+              "invalidState": "此通行密钥无法使用或已注册。",
+              "notSupportedType": "你的浏览器或设备不支持此类型的通行密钥。",
+              "securityError": "通行密钥只能通过 HTTPS 且使用有效网域。",
+              "authenticatorError": "验证器发生错误。",
+              "constraintError": "验证器无法符合必要限制。"
+            }
+          },
+          "step": {
+            "username": {
+              "title": "登录",
+              "subtitle": "输入你的用户名或电子邮件地址以继续",
+              "form": {
+                "usernameOrEmailPlaceholder": "你的用户名或电子邮件地址"
+              },
+              "link": {
+                "forgotPassword": "忘记密码",
+                "notRegistered": "尚未注册？",
+                "createAccount": "创建帐户"
+              },
+              "button": {
+                "oauthLogin": "OAuth 登录"
+              }
+            },
+            "passkey": {
+              "title": "使用通行密钥验证",
+              "subtitle": "我们找到与 {username} 关联的通行密钥",
+              "button": {
+                "usePasskey": "使用通行密钥",
+                "usePassword": "使用密码"
+              }
+            },
+            "password": {
+              "title": "输入密码",
+              "subtitle": "请输入 {username} 的密码",
+              "form": {
+                "passwordPlaceholder": "输入你的密码"
+              },
+              "button": {
+                "signIn": "登录",
+                "forgotPassword": "忘记密码"
+              }
+            },
+            "totp": {
+              "title": "双因素验证",
+              "welcomeBack": "欢迎回来，{username}！",
+              "enterCode": "输入验证器 App 产生的 6 位数代码",
+              "button": {
+                "verify": "验证代码",
+                "useRecoveryCode": "使用复原代码",
+                "useTotp": "使用 TOTP"
+              }
+            },
+            "totpRecovery": {
+              "subtitle": "输入复原代码",
+              "form": {
+                "label": "复原代码",
+                "placeholder": "输入复原代码"
+              }
+            }
+          }
+        },
+        "register": {
+          "title": "注册",
+          "subtitle": "请输入你的详细数据以注册",
+          "button": {
+            "register": "注册"
+          }
+        },
+        "forgotPassword": {
+          "title": "忘记密码",
+          "subtitle": "输入你的电子邮件以接收重设密码的指示",
+          "button": {
+            "request": "要求重设密码"
+          },
+          "success": "已寄出一封包含重设密码指示的电子邮件给你。"
+        },
+        "resetPassword": {
+          "title": "重设密码",
+          "subtitle": "请输入你的新密码",
+          "button": {
+            "reset": "重设密码"
+          },
+          "toast": {
+            "success": "密码已重设。"
+          }
+        },
+        "oauth": {
+          "title": "使用 OAuth 验证",
+          "subtitle": "选择下方任一提供者登录"
+        }
+      },
+      "account": {
+        "home": {
+          "title": "服务器",
+          "tooltip": {
+            "removeFromGroup": "从群组移除",
+            "addToGroup": "加入群组",
+            "addServerToGroup": "将服务器加入群组",
+            "groupActions": "群组动作",
+            "noGroups": "没有可加入服务器的群组",
+            "noGroup": "此服务器不在任何群组中"
+          },
+          "badge": {
+            "foreign": "外部"
+          },
+          "tabs": {
+            "groupedServers": {
+              "title": "已分组服务器",
+              "page": {
+                "button": {
+                  "createGroup": "创建群组"
+                },
+                "modal": {
+                  "createServerGroup": {
+                    "title": "创建服务器群组",
+                    "toast": {
+                      "created": "已创建服务器群组。"
+                    }
+                  },
+                  "editServerGroup": {
+                    "title": "编辑服务器群组",
+                    "toast": {
+                      "updated": "已更新服务器群组。"
+                    }
+                  },
+                  "deleteServerGroup": {
+                    "title": "确认删除服务器群组",
+                    "content": "你确定要从你的帐户删除 **{group}** 吗？",
+                    "toast": {
+                      "deleted": "已删除服务器群组。"
+                    }
+                  },
+                  "addServerToGroup": {
+                    "title": "将服务器加入 {group}",
+                    "noServers": "所有服务器都已在此群组中。",
+                    "toast": {
+                      "added": "已将服务器加入群组。"
+                    }
+                  },
+                  "removeServerFromGroup": {
+                    "title": "确认移除服务器",
+                    "content": "你确定要从 **{group}** 移除 **{server}** 吗？",
+                    "toast": {
+                      "removed": "已从群组移除服务器。"
+                    }
+                  }
+                },
+                "noGroups": "找不到任何群组，要创建一个吗？"
+              }
+            },
+            "allServers": {
+              "title": "所有服务器",
+              "page": {
+                "input": {
+                  "showOtherUsersServers": "显示其他用户的服务器"
+                },
+                "modal": {
+                  "addToServerGroup": {
+                    "title": "将 {server} 加入服务器群组",
+                    "form": {
+                      "serverGroup": "服务器群组"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "bulkActions": {
+            "selectionMode": "选取模式",
+            "select": "选取服务器",
+            "deselect": "取消选取服务器",
+            "success": "已成功{action} {servers}。",
+            "partial": "已成功{action} {successfulServers}。{failedServers} 失败。",
+            "groupActions": "群组动作"
+          },
+          "noServers": "找不到任何服务器，要添加一台吗？"
+        },
+        "admin": {
+          "title": "管理"
+        },
+        "account": {
+          "title": "帐户",
+          "alert": {
+            "requireTwoFactor": {
+              "title": "需要双因素验证",
+              "description": "你的帐户需要双因素验证。请在下方设置后继续使用面板。"
+            },
+            "frozen": {
+              "title": "帐户已冻结",
+              "description": "你的帐户已被冻结，在解除冻结前无法对帐户进行任何变更。请联系管理员以取得更多信息。"
+            }
+          },
+          "containers": {
+            "password": {
+              "title": "密码",
+              "toast": {
+                "updated": "密码已成功更新。"
+              },
+              "form": {
+                "newPassword": "新密码",
+                "confirmNewPassword": "确认新密码"
+              }
+            },
+            "email": {
+              "title": "电子邮件",
+              "toast": {
+                "updated": "电子邮件已成功更新。"
+              },
+              "form": {
+                "newEmail": "新电子邮件"
+              }
+            },
+            "twoFactor": {
+              "title": "双因素验证",
+              "toast": {
+                "disabled": "双因素验证已成功停用。",
+                "enabled": "双因素验证已成功激活。请拷贝你的复原代码。"
+              },
+              "modal": {
+                "disableTwoFactor": {
+                  "title": "停用双因素验证",
+                  "description": "停用双因素验证会降低帐户安全性。"
+                },
+                "setupTwoFactor": {
+                  "title": "设置双因素验证",
+                  "description": "协助保护你的帐户免于未授权访问。你每次登录时都会被要求输入验证码。",
+                  "descriptionQR": "使用你选择的双因素验证 App 扫描上方 QR code。然后将产生的 6 位数代码输入下方字段。"
+                },
+                "recoveryCodes": {
+                  "title": "复原代码",
+                  "description": "以下是你的复原代码。请将它们存放在安全位置。若你无法使用验证设备，可以使用这些代码重新取得帐户访问权。"
+                }
+              },
+              "button": {
+                "disableTwoFactor": "停用双因素",
+                "setupTwoFactor": "设置双因素"
+              },
+              "twoFactorEnabled": "目前已激活双因素验证。",
+              "twoFactorDisabled": "你的帐户目前尚未激活双因素验证。请点击下方按钮开始设置。",
+              "twoFactorLastUsed": "上次使用：{timestamp}"
+            },
+            "account": {
+              "title": "帐户详细数据",
+              "toast": {
+                "updated": "帐户详细数据已成功更新。"
+              },
+              "form": {
+                "toastPosition": "通知位置",
+                "startOnGroupedServers": "从已分组服务器页面开始"
+              }
+            },
+            "avatar": {
+              "title": "头像",
+              "toast": {
+                "updated": "头像已成功更新。",
+                "removed": "头像已成功移除。"
+              },
+              "form": {
+                "avatar": "头像"
+              }
+            }
+          }
+        },
+        "securityKeys": {
+          "title": "安全性密钥",
+          "subtitle": "已创建 {current} / {max} 个安全性密钥。",
+          "table": {
+            "columns": {
+              "credentialId": "凭证 ID"
+            }
+          },
+          "tooltip": {
+            "secureContextRequired": "使用安全性密钥需要安全内容（HTTPS）。",
+            "limitReached": "你最多只能使用 {max} 个安全性密钥。"
+          },
+          "modal": {
+            "createSecurityKey": {
+              "title": "创建安全性密钥",
+              "toast": {
+                "created": "安全性密钥已成功创建。",
+                "aborted": "安全性密钥创建已中止。"
+              }
+            },
+            "editSecurityKey": {
+              "title": "编辑安全性密钥",
+              "toast": {
+                "updated": "安全性密钥已成功更新。"
+              }
+            },
+            "deleteSecurityKey": {
+              "title": "确认删除安全性密钥",
+              "content": "你确定要从你的帐户删除 **{key}** 吗？",
+              "toast": {
+                "deleted": "安全性密钥已成功删除。"
+              }
+            }
+          }
+        },
+        "sessions": {
+          "title": "工作阶段",
+          "table": {
+            "columns": {
+              "ip": "IP",
+              "thisDevice": "此设备？",
+              "userAgent": "用户代理"
+            }
+          },
+          "modal": {
+            "deleteSession": {
+              "title": "确认删除工作阶段",
+              "content": "你确定要从你的帐户删除工作阶段 **{ip}** 吗？",
+              "toast": {
+                "deleted": "工作阶段已删除。"
+              }
+            }
+          }
+        },
+        "shortcuts": {
+          "title": "键盘快捷键",
+          "subtitle": "使用这些键盘快捷键，更有效率地导览并操作面板。",
+          "detectedMac": "侦测到 macOS",
+          "detectedWindows": "侦测到 Windows/Linux",
+          "label": {
+            "disabled": "已停用",
+            "modified": "已修改",
+            "recording": "按下按键..."
+          },
+          "button": {
+            "rebind": "重新绑定",
+            "resetAll": "全部重设",
+            "copy": "全部拷贝",
+            "paste": "粘贴"
+          },
+          "toast": {
+            "imported": "已更新 {shortcuts}。",
+            "importedNone": "没有快捷键被变更。",
+            "importErrors": "已忽略 {unknown} 和 {invalid}。",
+            "resetAll": "所有快捷键已重设为默认值。"
+          },
+          "fileManager": {
+            "title": "文件管理器",
+            "selectAll": "选取所有文件",
+            "cutFiles": "剪切选取的文件",
+            "copyFiles": "拷贝选取的文件",
+            "duplicateFile": "拷贝所选文件的副本",
+            "pasteFiles": "粘贴文件",
+            "searchFiles": "搜索文件",
+            "moveUpDirectory": "移至上一层目录",
+            "moveUpSelection": "将选取项目上移",
+            "moveDownSelection": "将选取项目下移",
+            "renameFile": "重命名文件",
+            "deselectAll": "取消选取所有文件",
+            "deleteFiles": "删除选取的文件"
+          },
+          "table": {
+            "title": "表格导览",
+            "previousPage": "上一页",
+            "nextPage": "下一页",
+            "firstPage": "第一页",
+            "lastPage": "最后一页"
+          },
+          "console": {
+            "title": "服务器主控台",
+            "searchContent": "搜索主控台输出",
+            "previousCommand": "历史纪录中的上一个指令",
+            "nextCommand": "历史纪录中的下一个指令"
+          },
+          "serverList": {
+            "title": "服务器清单",
+            "selectServer": "按住 S 并点击以选取/取消选取服务器"
+          }
+        },
+        "sshKeys": {
+          "title": "SSH 密钥",
+          "subtitle": "已创建 {current} / {max} 个 SSH 密钥。",
+          "tooltip": {
+            "limitReached": "你最多只能使用 {max} 个 SSH 密钥。"
+          },
+          "table": {
+            "columns": {
+              "fingerprint": "指纹"
+            }
+          },
+          "modal": {
+            "createSshKey": {
+              "title": "创建 SSH 密钥",
+              "toast": {
+                "created": "SSH 密钥已创建。"
+              },
+              "button": {
+                "uploadKeyFile": "上传密钥文件"
+              },
+              "form": {
+                "publicKey": "公开密钥"
+              }
+            },
+            "editSshKey": {
+              "title": "编辑 SSH 密钥",
+              "toast": {
+                "updated": "SSH 密钥已更新。"
+              }
+            },
+            "importSshKeys": {
+              "title": "导入 SSH 密钥",
+              "toast": {
+                "created": "已创建 {sshKeys}。"
+              },
+              "form": {
+                "provider": "提供者"
+              }
+            },
+            "deleteSshKey": {
+              "title": "确认删除 SSH 密钥",
+              "content": "你确定要从你的帐户删除 **{name}** 吗？",
+              "toast": {
+                "removed": "SSH 密钥已移除。"
+              }
+            }
+          }
+        },
+        "commandSnippets": {
+          "title": "指令片段",
+          "subtitle": "已创建 {current} / {max} 个指令片段。",
+          "tooltip": {
+            "limitReached": "你最多只能使用 {max} 个指令片段。"
+          },
+          "modal": {
+            "createCommandSnippet": {
+              "title": "创建指令片段",
+              "toast": {
+                "created": "指令片段已创建。"
+              }
+            },
+            "editCommandSnippet": {
+              "title": "编辑指令片段",
+              "toast": {
+                "updated": "指令片段已更新。"
+              }
+            },
+            "deleteCommandSnippet": {
+              "title": "确认删除指令片段",
+              "content": "你确定要从你的帐户删除 **{name}** 吗？",
+              "toast": {
+                "removed": "指令片段已移除。"
+              }
+            }
+          }
+        },
+        "oauthLinks": {
+          "title": "OAuth 链接",
+          "button": {
+            "connect": "连接",
+            "connectTo": "连接到 {provider}"
+          },
+          "table": {
+            "columns": {
+              "providerName": "提供者名称"
+            }
+          },
+          "modal": {
+            "deleteOAuthLink": {
+              "title": "确认删除 OAuth 链接",
+              "content": "你确定要从你的帐户删除 **{provider}** 连接吗？",
+              "toast": {
+                "removed": "OAuth 链接已移除。"
+              }
+            }
+          }
+        },
+        "apiKeys": {
+          "title": "API 密钥",
+          "subtitle": "已创建 {current} / {max} 个 API 密钥。",
+          "button": {
+            "apiDocumentation": "API 文档"
+          },
+          "tooltip": {
+            "limitReached": "你最多只能使用 {max} 个 API 密钥。"
+          },
+          "table": {
+            "columns": {
+              "key": "密钥",
+              "permissions": "用户 / 服务器 / 管理员权限",
+              "expires": "到期"
+            }
+          },
+          "modal": {
+            "createApiKey": {
+              "title": "创建 API 密钥",
+              "toast": {
+                "created": "API 密钥已创建。"
+              }
+            },
+            "updateApiKey": {
+              "title": "更新 API 密钥",
+              "toast": {
+                "updated": "API 密钥已更新。"
+              }
+            },
+            "recreateApiKey": {
+              "title": "重新创建 API 密钥",
+              "content": "重新创建 API 密钥会产生新的密钥并使旧密钥失效。你确定要重新创建 API 密钥 **{name}** 吗？",
+              "toast": {
+                "recreated": "API 密钥已重新创建。"
+              }
+            },
+            "deleteApiKey": {
+              "title": "确认删除 API 密钥",
+              "content": "你确定要从你的帐户删除 **{name}** 吗？",
+              "toast": {
+                "removed": "API 密钥已移除。"
+              }
+            }
+          },
+          "form": {
+            "allowedIps": "允许的 IP",
+            "allowedIpsPlaceholder": "例如 192.168.1.1, 2001:db8::1",
+            "userPermissions": "用户权限",
+            "serverPermissions": "服务器权限",
+            "adminPermissions": "管理员权限"
+          },
+          "create": {
+            "title": "创建 API 密钥",
+            "subtitle": "某个应用程序要求为你的帐户创建 API 密钥。",
+            "alert": {
+              "adminPermissions": "此 API 密钥要求**管理员权限**。任何持有此密钥的人都能以你的名义在此面板上运行管理操作。仅在你完全信任要求此密钥的应用程序时才继续。",
+              "callbackUrl": "创建后，新的 API 密钥将被发送到 **{url}**。"
+            },
+            "noPermissions": "此 API 密钥将没有任何权限。",
+            "keyCreated": "你的新 API 密钥已创建。请立即拷贝，因为它将不会再次显示。",
+            "button": {
+              "goToApiKeys": "前往 API 密钥"
+            }
+          }
+        },
+        "activity": {
+          "title": "活动"
+        }
+      },
+      "admin": {
+        "home": {
+          "title": "首页",
+          "alert": {
+            "newPanelVersion": "面板有新版本可用！你目前版本为 {current}，最新版本为 {latest}。建议你考虑升级。[点击此处]({upgradeUrl}) 查看升级说明。"
+          },
+          "tabs": {
+            "overview": {
+              "title": "概览",
+              "page": {
+                "permissionDenied": "你没有权限读取本应显示在此处的统计数据。现在，请欣赏这只鸟。",
+                "card": {
+                  "systemOverview": "系统概览",
+                  "generalStatistics": "一般统计",
+                  "backupStatistics": "备份统计"
+                },
+                "system": {
+                  "cpu": "CPU",
+                  "memoryUsage": "内存使用量（面板使用 {process}）",
+                  "memoryValue": "{used} / {total}（{percent}%）",
+                  "kernelVersion": "内核版本（{architecture}）",
+                  "containerType": "容器类型",
+                  "databaseVersion": "数据库版本（{size}）",
+                  "cacheVersion": "缓存版本",
+                  "cacheCalls": "缓存调用次数",
+                  "cacheHits": "缓存命中（{percent}%）",
+                  "cacheMisses": "缓存未命中（{percent}%）",
+                  "avgCachedCallLatency": "平均缓存调用延迟"
+                },
+                "containerType": {
+                  "none": "未侦测到",
+                  "official": "官方",
+                  "officialAio": "官方 AIO",
+                  "officialHeavy": "官方 Heavy"
+                },
+                "stats": {
+                  "users": "用户",
+                  "servers": "服务器",
+                  "locations": "位置",
+                  "nodes": "节点",
+                  "nestEggs": "Nest Egg",
+                  "databaseHosts": "数据库主机",
+                  "backupConfigurations": "备份设置",
+                  "roles": "角色"
+                },
+                "backup": {
+                  "allTime": "全部时间",
+                  "today": "今天",
+                  "week": "本周",
+                  "month": "本月",
+                  "totalAllTime": "全部时间总备份数",
+                  "successfulAllTime": "全部时间成功备份数",
+                  "failedAllTime": "全部时间失败备份数",
+                  "deletedAllTime": "全部时间已删除备份数",
+                  "totalToday": "今日总备份数",
+                  "successfulToday": "今日成功备份数",
+                  "failedToday": "今日失败备份数",
+                  "deletedToday": "今日已删除备份数",
+                  "totalWeek": "本周总备份数",
+                  "successfulWeek": "本周成功备份数",
+                  "failedWeek": "本周失败备份数",
+                  "deletedWeek": "本周已删除备份数",
+                  "totalMonth": "本月总备份数",
+                  "successfulMonth": "本月成功备份数",
+                  "failedMonth": "本月失败备份数",
+                  "deletedMonth": "本月已删除备份数",
+                  "successfulValue": "{count}（{size}）",
+                  "deletedValue": "{count}（{size}）"
+                }
+              }
+            },
+            "updates": {
+              "title": "更新",
+              "page": {
+                "alert": {
+                  "extensionUpdateErrors": "检查部分扩充功能更新时发生错误。"
+                },
+                "card": {
+                  "panelVersion": "面板版本",
+                  "versionHistory": "版本历史",
+                  "outdatedExtensions": "过期的扩充功能",
+                  "outdatedNodes": "过期的节点"
+                },
+                "panelVersion": "你的面板目前运行版本 `{current}`，最新可用版本为 `{latest}`。",
+                "unknown": "未知",
+                "button": {
+                  "recheck": "重新检查更新"
+                },
+                "toast": {
+                  "recheckComplete": "重新检查完成。"
+                },
+                "selectHistory": "选取要查看的更新历史。",
+                "historyPanel": "面板",
+                "historyExtension": "扩充功能：{name}",
+                "extensionsUpToDate": "所有扩充功能皆为最新版本。",
+                "extensionsOutdated": "部分扩充功能已过期或在检查更新时发生错误。",
+                "noChangelog": "无变更纪录",
+                "nodesUpToDate": "所有节点似乎都是最新版本。（{failed} 个检查失败）",
+                "nodesOutdated": "部分节点已过期，最新可用版本为 `{latest}`。（{outdated} 个过期，{failed} 个检查失败）",
+                "table": {
+                  "version": "版本",
+                  "installed": "已安装",
+                  "packageName": "套件名称",
+                  "latestVersion": "最新版本",
+                  "changes": "变更",
+                  "error": "错误"
+                }
+              }
+            },
+            "health": {
+              "title": "健康状态",
+              "page": {
+                "card": {
+                  "generalHealth": "一般健康状态",
+                  "extensionMigrationHealth": "扩充功能迁移健康状态",
+                  "desyncNodes": "时钟不同步节点",
+                  "debugMode": "调试模式"
+                },
+                "appliedMigrations": "已套用迁移（{percent}%）",
+                "migrationsValue": "{applied} / {total}",
+                "avgNtpOffset": "平均 NTP 偏移",
+                "noExtensions": "找不到任何扩充功能。",
+                "nodesSynced": "所有节点的时钟似乎已同步（与面板时钟相差在 5 秒内）。（{failed} 个检查失败）",
+                "nodesDesync": "部分节点的时钟不同步（与面板时钟相差超过 5 秒）。这可能导致文件下载/主控台问题。（{desync} 个不同步，{failed} 个检查失败）",
+                "debugEnabled": "调试模式目前已激活。",
+                "debugDisabled": "调试模式目前已停用。",
+                "debugResetNote": "此设置将在应用程序重新启动时重设为默认值（{default}）。",
+                "table": {
+                  "packageName": "套件名称",
+                  "applied": "已套用",
+                  "total": "总计",
+                  "id": "ID",
+                  "desync": "不同步",
+                  "appliedValue": "{applied}（{percent}%）"
+                },
+                "button": {
+                  "enableDebug": "激活调试模式",
+                  "disableDebug": "停用调试模式"
+                },
+                "toast": {
+                  "debugEnabled": "调试模式已激活。",
+                  "debugDisabled": "调试模式已停用。"
+                }
+              }
+            }
+          }
+        },
+        "settings": {
+          "title": "设置",
+          "tabs": {
+            "application": {
+              "title": "应用程序",
+              "page": {
+                "title": "应用程序设置",
+                "form": {
+                  "icon": "图标",
+                  "iconLight": "图标（浅色模式）",
+                  "banner": "横幅",
+                  "bannerLight": "横幅（浅色模式）",
+                  "sessionCookie": "工作阶段 Cookie",
+                  "sessionDurationSeconds": "工作阶段持续时间（秒）",
+                  "twoFactorRequirement": "双因素验证需求",
+                  "telemetryEnabled": "激活遥测",
+                  "telemetryEnabledDescription": "允许 Calagopus 收集有限且匿名的使用数据以协助改善应用程序。",
+                  "registrationEnabled": "激活注册"
+                },
+                "enum": {
+                  "twoFactorRequirement": {
+                    "admins": "管理员",
+                    "allUsers": "所有用户",
+                    "none": "无"
+                  }
+                },
+                "button": {
+                  "previewTelemetry": "预览遥测数据"
+                },
+                "toast": {
+                  "updated": "应用程序设置已更新。"
+                },
+                "modal": {
+                  "disableTelemetry": {
+                    "title": "确认停用遥测",
+                    "content": "你确定要停用遥测吗？遥测通过提供匿名使用数据协助我们改善 Calagopus。停用遥测将阻止任何数据被发送。"
+                  },
+                  "enableRegistration": {
+                    "title": "确认激活注册",
+                    "content": "你确定要激活注册吗？激活注册将允许任何人于此面板创建帐户。若你尚未设置验证码，这可能是个错误。"
+                  },
+                  "telemetryPreview": {
+                    "title": "遥测预览"
+                  }
+                }
+              }
+            },
+            "storage": {
+              "title": "保存",
+              "page": {
+                "title": "保存设置",
+                "form": {
+                  "driver": "驱动程序"
+                },
+                "enum": {
+                  "driver": {
+                    "filesystem": "文件系统",
+                    "s3": "S3"
+                  }
+                },
+                "toast": {
+                  "updated": "保存设置已更新。"
+                },
+                "modal": {
+                  "changeStorageType": {
+                    "title": "确认变更保存类型",
+                    "content": "你确定要变更保存类型吗？变更保存类型将使应用程序从不同位置寻找资产（例如个人数据图片），若未手动将其移至新位置，可能导致资产遗失。"
+                  }
+                },
+                "s3": {
+                  "alert": {
+                    "permissionsTitle": "权限注意事项",
+                    "permissionsIntro": "为确保保存后端正常运作，请确认下列子目录可通过你提供的「公开 URL」公开访问：",
+                    "permissionsAssets": "所有管理员资产（例如图标）将保存于此处。",
+                    "permissionsAvatars": "所有用户头像将保存于此处。",
+                    "permissionsPublicData": "扩充功能可将公开数据（例如图片）保存于此处。"
+                  },
+                  "form": {
+                    "pathStyle": "使用路径样式 URL"
+                  }
+                }
+              }
+            },
+            "mail": {
+              "title": "邮件",
+              "page": {
+                "title": "电子邮件设置",
+                "enum": {
+                  "provider": {
+                    "none": "无",
+                    "smtp": "SMTP",
+                    "sendmail": "Sendmail 指令",
+                    "filesystem": "文件系统"
+                  },
+                  "tlsMode": {
+                    "none": "无",
+                    "startTls": "STARTTLS",
+                    "implicitTls": "隐式 TLS"
+                  }
+                },
+                "toast": {
+                  "updated": "电子邮件设置已更新。"
+                },
+                "modal": {
+                  "sendTestEmail": {
+                    "title": "发送测试邮件",
+                    "toast": {
+                      "sent": "测试邮件已成功发送。"
+                    }
+                  }
+                },
+                "smtp": {
+                  "form": {
+                    "tlsMode": "TLS 模式",
+                    "skipCertValidation": "略过凭证验证"
+                  }
+                }
+              }
+            },
+            "mailTemplates": {
+              "title": "邮件范本",
+              "page": {
+                "title": "电子邮件范本设置",
+                "sidebar": {
+                  "templates": "范本",
+                  "loading": "加载中...",
+                  "availableVariables": "可用变量"
+                },
+                "alert": {
+                  "syntaxBefore": "范本使用",
+                  "syntaxLink": "MiniJinja",
+                  "syntaxMiddle": "范本语法。变量以",
+                  "syntaxAnd": "参考，且支持",
+                  "syntaxOr": "和",
+                  "syntaxAfter": "等控制结构。"
+                },
+                "empty": "从侧边栏选取范本以进行编辑。",
+                "loadingTemplate": "正在加载范本...",
+                "form": {
+                  "subject": "主旨"
+                },
+                "toast": {
+                  "saved": "电子邮件范本已保存。",
+                  "reset": "电子邮件范本已重设为默认值。"
+                },
+                "modal": {
+                  "reset": {
+                    "title": "重设为默认值",
+                    "content": "这将舍弃你为 **{identifier}** 自订的范本，并还原为内置默认值。此操作无法复原。"
+                  }
+                }
+              }
+            },
+            "captcha": {
+              "title": "验证码",
+              "page": {
+                "title": "验证码设置",
+                "toast": {
+                  "updated": "验证码设置已更新。"
+                },
+                "recaptcha": {
+                  "form": {
+                    "v3": "V3"
+                  }
+                }
+              }
+            },
+            "webauthn": {
+              "title": "Webauthn",
+              "page": {
+                "title": "Webauthn 设置",
+                "form": {
+                  "rpId": "RP ID",
+                  "rpOrigin": "RP 来源"
+                },
+                "button": {
+                  "autofill": "自动填入"
+                },
+                "toast": {
+                  "updated": "Webauthn 设置已更新。",
+                  "ipNotAllowed": "无法在 IP 地址上使用 WebAuthn。"
+                },
+                "modal": {
+                  "changeRpId": {
+                    "title": "确认变更 RP ID",
+                    "content": "你确定要变更 RP ID 吗？变更 RP ID 将使所有现有的 Webauthn 凭证失效，并要求用户重新注册其设备。这可能产生重大后果，请确保你在继续前已了解其影响。"
+                  }
+                }
+              }
+            },
+            "server": {
+              "title": "服务器",
+              "page": {
+                "title": "服务器设置",
+                "form": {
+                  "maxFileManagerViewSize": "文件管理器最大查看大小",
+                  "maxScheduleStepCount": "最大调度步骤数",
+                  "maxFileManagerContentSearchSize": "文件管理器最大内容搜索大小",
+                  "maxFileManagerSearchResults": "文件管理器最大搜索结果数",
+                  "maxSubuserCount": "最大子用户数量",
+                  "allowOverwritingCustomDockerImage": "允许覆写自订 Docker 映像档",
+                  "allowOverwritingCustomDockerImageDescription": "若激活，即使管理员已设置自订 Docker 映像档，用户仍可使用 Egg 清单覆写服务器设置中指定的 Docker 映像档。",
+                  "allowViewingInstallationLogs": "允许查看安装纪录",
+                  "allowViewingInstallationLogsDescription": "若激活，拥有主控台读取权限的用户也能通过 websocket 连接查看安装纪录。若停用，仅管理员可查看安装纪录。",
+                  "allowAcknowledgingInstallationFailure": "允许确认安装失败",
+                  "allowAcknowledgingInstallationFailureDescription": "若激活，用户将能确认处于「安装失败」状态的服务器安装失败，使其能尝试启动服务器而无需等待管理员。若停用，仅管理员能确认安装失败。",
+                  "allowViewingTransferProgress": "允许查看转移进度",
+                  "allowViewingTransferProgressDescription": "若激活，拥有主控台读取权限的用户也能通过 websocket 连接查看转移进度纪录。若停用，仅管理员可查看转移进度纪录。",
+                  "containerPrelude": "容器前导文本",
+                  "containerPreludeDescription": "用于服务器主控台中部分状态相关消息的终端机前导文本。"
+                },
+                "toast": {
+                  "updated": "服务器设置已更新。"
+                }
+              }
+            },
+            "user": {
+              "title": "用户",
+              "page": {
+                "title": "用户设置",
+                "form": {
+                  "maxServerGroupCount": "最大服务器群组数",
+                  "maxApiKeyCount": "最大 API 密钥数",
+                  "maxCommandSnippetCount": "最大指令片段数",
+                  "maxSecurityKeyCount": "最大安全性密钥数",
+                  "maxSshKeyCount": "最大 SSH 密钥数",
+                  "allowChangingLanguage": "允许变更语言",
+                  "allowChangingLanguageDescription": "若激活，用户将能变更其语言偏好。"
+                },
+                "routeOrder": {
+                  "title": "客户端路由顺序"
+                },
+                "toast": {
+                  "updated": "用户设置已更新。"
+                }
+              }
+            },
+            "activity": {
+              "title": "活动",
+              "page": {
+                "title": "活动设置",
+                "form": {
+                  "adminLogRetentionDays": "管理员活动保留天数",
+                  "userLogRetentionDays": "用户活动保留天数",
+                  "serverLogRetentionDays": "服务器活动保留天数",
+                  "adminLogRetentionCount": "管理员活动保留笔数",
+                  "userLogRetentionCount": "用户活动保留笔数",
+                  "serverLogRetentionCount": "服务器活动保留笔数",
+                  "serverLogAdminActivity": "记录服务器管理员活动",
+                  "serverLogAdminActivityDescription": "激活或停用对管理员非拥有者或子用户的服务器之管理活动记录。",
+                  "serverLogScheduleActivity": "记录服务器调度活动",
+                  "serverLogScheduleActivityDescription": "激活或停用服务器调度运行的活动记录。"
+                },
+                "toast": {
+                  "updated": "活动设置已更新。"
+                }
+              }
+            },
+            "ratelimits": {
+              "title": "速率限制",
+              "page": {
+                "title": "速率限制设置",
+                "form": {
+                  "hits": "请求次数",
+                  "hitsDescription": "每个时间窗口内允许的最大请求次数。",
+                  "windowSeconds": "时间窗口",
+                  "windowSecondsDescription": "时间窗口持续时间（秒）。"
+                },
+                "toast": {
+                  "updated": "速率限制设置已更新。"
+                }
+              }
+            }
+          }
+        },
+        "announcements": {
+          "title": "公告",
+          "resourceName": "公告",
+          "tabs": {
+            "general": {
+              "page": {
+                "modal": {
+                  "delete": {
+                    "title": "确认删除公告",
+                    "content": "你确定要删除 **{title}** 吗？"
+                  }
+                },
+                "form": {
+                  "dismissibleEnd": "可关闭结束时间",
+                  "enabledStart": "激活开始时间",
+                  "enabledEnd": "激活结束时间",
+                  "locations": "位置",
+                  "locationsDescription": "留空以套用至所有位置。",
+                  "nodes": "节点",
+                  "nodesDescription": "留空以套用至所有节点。",
+                  "backupConfigurations": "备份设置",
+                  "backupConfigurationsDescription": "留空以套用至所有备份设置。",
+                  "eggsPlaceholder": "选取 Egg",
+                  "dismissible": "可关闭"
+                },
+                "titleCreate": "创建公告",
+                "titleUpdate": "更新公告"
+              }
+            }
+          },
+          "enum": {
+            "announcementType": {
+              "info": "信息",
+              "success": "成功",
+              "warning": "警告",
+              "error": "错误"
+            }
+          }
+        },
+        "assets": {
+          "title": "资产",
+          "button": {
+            "newDirectory": "新目录",
+            "upload": "上传",
+            "copyLink": "拷贝链接"
+          },
+          "dropzone": {
+            "title": "将文件拖放到此处以上传",
+            "subtitle": "放开即可开始上传"
+          },
+          "operations": {
+            "waiting": "等待中：",
+            "uploading": "上传中："
+          },
+          "toast": {
+            "assetDeleted": "资产已删除。",
+            "assetsDeleted": "已删除 {assets}。"
+          },
+          "modal": {
+            "createDirectory": {
+              "title": "新目录",
+              "createdAs": "将创建于 "
+            },
+            "deleteAssets": {
+              "title": "确认删除资产",
+              "content": "你确定要删除 `{count}` 个资产吗？"
+            },
+            "deleteAsset": {
+              "title": "删除资产",
+              "content": "你确定要删除此资产吗？此操作无法复原。"
+            }
+          }
+        },
+        "extensions": {
+          "title": "扩充功能",
+          "unknownExtension": "未知的扩充功能",
+          "alert": {
+            "noExtensions": "尚未安装任何扩充功能。",
+            "heavyImageMissing": "你似乎未使用安装扩充功能所需的 heavy 映像档，请参阅[此处]({docsUrl})了解如何切换。"
+          },
+          "button": {
+            "viewBuildLogs": "查看建置纪录",
+            "install": "安装扩充功能",
+            "rebuild": "重新建置扩充功能",
+            "configure": "设置",
+            "back": "返回扩充功能",
+            "accept": "接受",
+            "decline": "拒绝"
+          },
+          "tooltip": {
+            "building": "面板目前正在建置扩充功能代码，请稍候。",
+            "noPendingBuild": "没有待建置的扩充功能。",
+            "noBackend": "设置此扩充功能需要后端扩充功能。",
+            "noConfigurationPage": "此扩充功能未定义设置页面。",
+            "removeExtension": "移除扩充功能"
+          },
+          "badge": {
+            "frontendMissing": "前端遗失",
+            "backendMissing": "后端遗失",
+            "pendingBuild": "待建置",
+            "pendingRemoval": "待移除"
+          },
+          "card": {
+            "version": "版本",
+            "authors": "作者"
+          },
+          "section": {
+            "pendingExtensions": "待处理的扩充功能",
+            "noPendingExtensions": "没有待处理的扩充功能。"
+          },
+          "dropzone": {
+            "title": "将一些文件拖放到此处以安装为扩充功能",
+            "subtitle": "放开即可开始安装"
+          },
+          "toast": {
+            "buildStarted": "扩充功能重新建置已成功启动。",
+            "buildCompleted": "扩充功能建置已完成。你可能需要刷新页面。",
+            "added": "扩充功能 `{packageName}` 已成功添加。",
+            "removed": "扩充功能 `{packageName}` 已成功移除。"
+          },
+          "notFound": {
+            "title": "找不到扩充功能",
+            "content": "找不到套件名称为「{packageName}」的扩充功能。"
+          },
+          "configure": {
+            "title": "设置 {packageName}",
+            "noConfigurationPage": "此扩充功能没有设置页面。"
+          },
+          "modal": {
+            "buildLogs": {
+              "title": "建置纪录",
+              "empty": "找不到任何纪录。"
+            },
+            "license": {
+              "title": "授权协议",
+              "description": "扩充功能 `{packageName}` 要求你在安装前接受下列授权。"
+            },
+            "remove": {
+              "title": "移除扩充功能",
+              "content": "你确定要移除扩充功能 `{packageName}` 吗？此操作无法复原。",
+              "form": {
+                "removeMigrations": "你要移除并复原此扩充功能的数据库迁移吗？"
+              }
+            }
+          }
+        },
+        "users": {
+          "title": "用户",
+          "resourceName": "用户",
+          "tooltip": {
+            "admin": "管理员",
+            "twoFactorEnabled": "2FA 已激活",
+            "twoFactorDisabled": "2FA 已停用"
+          },
+          "table": {
+            "columns": {
+              "role": "角色"
+            }
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "tooltip": {
+                  "cannotImpersonateSelf": "你无法仿真自己的身分。"
+                },
+                "button": {
+                  "disableTwoFactor": "停用双因素验证",
+                  "sendPasswordResetEmail": "发送密码重设邮件",
+                  "impersonate": "仿真身分"
+                },
+                "form": {
+                  "admin": "管理员",
+                  "adminDescription": "管理员用户对面板上的所有内容拥有完整且无限制的访问权。",
+                  "frozen": "已冻结",
+                  "frozenDescription": "已冻结的用户无法对其帐户信息进行任何变更。",
+                  "suspended": "已停权",
+                  "suspendedDescription": "已停权的用户无法以任何有意义的方式访问面板。",
+                  "role": "角色"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除用户",
+                    "content": "你确定要删除 **{username}** 吗？"
+                  },
+                  "disableTwoFactor": {
+                    "title": "停用用户双因素验证",
+                    "content": "你确定要移除 **{username}** 的双因素验证吗？",
+                    "toast": {
+                      "disabled": "用户双因素验证已停用。"
+                    }
+                  },
+                  "sendPasswordResetEmail": {
+                    "title": "发送密码重设邮件",
+                    "content": "你确定要发送密码重设邮件到 **{email}** 吗？",
+                    "toast": {
+                      "sent": "密码重设邮件已发送。"
+                    }
+                  }
+                },
+                "titleCreate": "创建用户",
+                "titleUpdate": "更新用户"
+              }
+            },
+            "servers": {
+              "title": "服务器",
+              "page": {
+                "title": "用户服务器",
+                "showOwnedOnly": "仅显示用户拥有的服务器"
+              }
+            },
+            "oauthLinks": {
+              "title": "OAuth 链接",
+              "page": {
+                "title": "用户 OAuth 链接",
+                "toast": {
+                  "added": "OAuth 链接已添加。",
+                  "removed": "OAuth 链接已移除。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加 OAuth 链接",
+                    "form": {
+                      "oauthProvider": "OAuth 提供者"
+                    }
+                  },
+                  "delete": {
+                    "title": "确认删除 OAuth 链接",
+                    "content": "你确定要从 **{username}** 删除 **{provider}** 连接吗？"
+                  }
+                }
+              }
+            },
+            "activity": {
+              "title": "活动",
+              "page": {
+                "title": "用户活动"
+              }
+            }
+          }
+        },
+        "locations": {
+          "title": "位置",
+          "resourceName": "位置",
+          "tabs": {
+            "general": {
+              "page": {
+                "form": {
+                  "flag": "旗帜"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除位置",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                },
+                "titleCreate": "创建位置",
+                "titleUpdate": "更新位置"
+              }
+            },
+            "databaseHosts": {
+              "title": "数据库主机",
+              "page": {
+                "title": "位置数据库主机",
+                "toast": {
+                  "created": "位置数据库主机已创建。",
+                  "deleted": "位置数据库主机已删除。"
+                },
+                "modal": {
+                  "create": {
+                    "title": "创建位置数据库主机"
+                  },
+                  "delete": {
+                    "title": "确认删除位置数据库主机",
+                    "content": "你确定要从 **{location}** 删除数据库主机 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "title": "节点",
+              "page": {
+                "title": "位置节点"
+              }
+            }
+          }
+        },
+        "nodes": {
+          "title": "节点",
+          "resourceName": "节点",
+          "tabs": {
+            "general": {
+              "page": {
+                "tooltip": {
+                  "deploymentEnabled": "部署已激活",
+                  "deploymentDisabled": "部署已停用",
+                  "allInOneNode": "All-in-One 节点",
+                  "errorWhileFetchingVersion": "取得版本时发生错误",
+                  "updateAvailable": "{version}（有可用更新）",
+                  "useWingsProxyUrl": "使用 Wings 代理 URL"
+                },
+                "form": {
+                  "urlDescription": "用于与节点进行内部通信。",
+                  "publicUrlDescription": "用于 websocket 连接与下载。",
+                  "backupConfigurationPlaceholder": "继承自位置"
+                },
+                "button": {
+                  "resetToken": "重设权杖",
+                  "updateConfig": "更新设置"
+                },
+                "toast": {
+                  "tokenReset": "节点权杖已重设。"
+                },
+                "alert": {
+                  "noLocations": "你需要先创建至少一个位置才能创建节点。位置可协助你按地理或逻辑方式组织节点。"
+                },
+                "titleCreate": "创建节点",
+                "titleUpdate": "更新节点"
+              }
+            },
+            "configuration": {
+              "title": "设置",
+              "page": {
+                "title": "设置",
+                "section": {
+                  "initialSetup": "初始设置",
+                  "liveConfiguration": "即时设置"
+                },
+                "description": {
+                  "placeFile": "将此内容放入 `/etc/pterodactyl/config.yml` 设置档中，或运行"
+                },
+                "tooltip": {
+                  "copyCommand": "拷贝指令"
+                },
+                "form": {
+                  "panelUrl": "面板 URL",
+                  "apiPort": "API 连接端口"
+                },
+                "button": {
+                  "save": "保存设置"
+                },
+                "alert": {
+                  "couldNotReach": "无法连接到节点：{error}"
+                },
+                "toast": {
+                  "applied": "设置已成功套用。",
+                  "submittedNotApplied": "设置已提交但未套用。",
+                  "invalidYaml": "无效的 YAML：{error}"
+                }
+              }
+            },
+            "statistics": {
+              "title": "统计",
+              "page": {
+                "title": "节点统计",
+                "card": {
+                  "resources": "资源",
+                  "graphs": "图表"
+                },
+                "toast": {
+                  "connectionLost": "与节点统计串流的连接已中断。"
+                },
+                "label": {
+                  "cpu": "CPU",
+                  "memory": "内存",
+                  "disk": "磁盘",
+                  "network": "网络",
+                  "cpuThreads": "{model}（{threads} 线程）",
+                  "usedByWings": "{size} 由 Wings 使用",
+                  "networkIn": "传入：{in}",
+                  "networkOut": "传出：{out}"
+                },
+                "chart": {
+                  "cpuLoad": "CPU 负载",
+                  "memoryUsage": "内存使用量",
+                  "diskIo": "磁盘 I/O",
+                  "networkTraffic": "网络流量",
+                  "diskRead": "磁盘读取",
+                  "diskWrite": "磁盘写入",
+                  "inbound": "传入",
+                  "outbound": "传出",
+                  "networkInLabel": "网络传入",
+                  "networkOutLabel": "网络传出"
+                }
+              }
+            },
+            "capacity": {
+              "title": "容量",
+              "page": {
+                "title": "部署容量",
+                "subtitle": "此节点上分配给服务器的资源，以节点设置中设置的限制为基准，而非实体机器容量。部署仅检查内存与磁盘。",
+                "card": {
+                  "resources": "已分配资源"
+                },
+                "status": {
+                  "deploymentEnabled": "部署已激活",
+                  "deploymentDisabled": "部署已停用",
+                  "maintenanceEnabled": "维护中",
+                  "maintenanceDisabled": "非维护中"
+                },
+                "label": {
+                  "cpu": "CPU",
+                  "memory": "内存",
+                  "disk": "磁盘",
+                  "memoryOverhead": "内存额外开销",
+                  "servers": "服务器",
+                  "noLimit": "无节点限制",
+                  "free": "{size} 可用",
+                  "overhead": "+ {size} 保留额外开销",
+                  "cores": "已分配 {cores} 内核"
+                }
+              }
+            },
+            "logs": {
+              "title": "纪录",
+              "page": {
+                "title": "节点纪录",
+                "form": {
+                  "logFile": "纪录档",
+                  "follow": "追踪"
+                },
+                "button": {
+                  "download": "下载完整纪录"
+                },
+                "toast": {
+                  "connectionLost": "与节点纪录串流的连接已中断。"
+                }
+              }
+            },
+            "allocations": {
+              "title": "分配",
+              "page": {
+                "title": "节点分配",
+                "tooltip": {
+                  "clearSelection": "清除选取"
+                },
+                "form": {
+                  "ipAlias": "IP 别名"
+                },
+                "table": {
+                  "columns": {
+                    "ipAlias": "IP 别名"
+                  }
+                },
+                "modal": {
+                  "create": {
+                    "title": "创建节点分配",
+                    "button": {
+                      "create": "创建 {count}"
+                    },
+                    "toast": {
+                      "created": "已创建 {allocations}。"
+                    }
+                  },
+                  "update": {
+                    "title": "更新节点分配",
+                    "toast": {
+                      "updated": "已更新 {allocations}。"
+                    }
+                  },
+                  "delete": {
+                    "title": "确认删除节点分配",
+                    "content": "你确定要从 **{name}** 删除 `{count}` 个分配吗？",
+                    "toast": {
+                      "deleted": "已删除 {allocations}。"
+                    }
+                  }
+                }
+              }
+            },
+            "mounts": {
+              "title": "挂载",
+              "page": {
+                "title": "节点挂载",
+                "toast": {
+                  "added": "节点挂载已添加。",
+                  "removed": "节点挂载已移除。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加节点挂载"
+                  },
+                  "remove": {
+                    "title": "确认移除节点挂载",
+                    "content": "你确定要从 **{name}** 移除挂载 **{mount}** 吗？"
+                  }
+                }
+              }
+            },
+            "backups": {
+              "title": "备份",
+              "page": {
+                "title": "节点备份",
+                "input": {
+                  "detachedOnly": "仅显示已卸离的备份"
+                },
+                "tooltip": {
+                  "backupNotOnSameNode": "此备份不在与服务器相同的节点上，无法从客户端 API 查看。"
+                },
+                "toast": {
+                  "downloadStarted": "下载已开始。",
+                  "detached": "备份已成功卸离。",
+                  "reattached": "已成功将备份重新附加到 {name}。",
+                  "restoring": "正在将备份还原到 {name}...",
+                  "deleted": "节点备份已删除。"
+                },
+                "modal": {
+                  "detach": {
+                    "title": "确认卸离备份",
+                    "content": "你确定要将此备份从其服务器卸离吗？它不会被删除，且稍后可以重新附加。"
+                  },
+                  "reattach": {
+                    "title": "重新附加节点备份",
+                    "description": "重新附加节点备份将把它链接到服务器。当备份已卸离或你想将其链接到不同服务器时，此功能很有用。请注意，这不是转移工具，除非备份被视为远程（可被多个节点访问），否则服务器必须与备份属于相同节点。"
+                  },
+                  "restore": {
+                    "title": "还原节点备份",
+                    "form": {
+                      "truncateDirectory": "你要在还原备份前清空此服务器的文件系统吗？"
+                    }
+                  },
+                  "delete": {
+                    "title": "确认删除节点备份",
+                    "form": {
+                      "force": "你要强制删除此节点备份吗？"
+                    }
+                  }
+                }
+              }
+            },
+            "servers": {
+              "title": "服务器",
+              "page": {
+                "title": "节点服务器",
+                "modal": {
+                  "transfer": {
+                    "title": "转移服务器",
+                    "form": {
+                      "allocationMode": "分配模式",
+                      "transferBackups": "转移备份",
+                      "transferBackupsDescription": "是否连同服务器一起转移备份。"
+                    },
+                    "toast": {
+                      "started": "{servers} 转移已开始。"
+                    },
+                    "confirm": {
+                      "title": "确认服务器转移",
+                      "content": "你确定要将 `{count}` 台服务器从 **{from}** 转移到 **{to}** 吗？此操作无法复原。"
+                    },
+                    "enum": {
+                      "allocationMode": {
+                        "none": "无（舍弃所有分配，服务器不会在目标节点自动获得新分配）",
+                        "randomPrimary": "随机化主要分配（移除额外分配）",
+                        "randomAll": "随机化所有分配（建议使用以避免与目标节点的兼容性问题）",
+                        "eggConfigDeployment": "根据 Egg 部署设置分配（仅在 Egg 有部署设置且目标节点有兼容分配时有效）",
+                        "eggConfigSelfAssignRange": "根据 Egg 连接端口范围自行分配新分配（仅在 Egg 有连接端口范围且目标节点有兼容分配时有效）"
+                      }
+                    }
+                  },
+                  "powerAction": {
+                    "title": "确认电源动作",
+                    "content": "你确定要对 {servers} 运行 **{action}** 吗？"
+                  }
+                }
+              }
+            },
+            "transfers": {
+              "title": "对外转移",
+              "page": {
+                "title": "节点转移",
+                "table": {
+                  "columns": {
+                    "progress": "进度",
+                    "archiveRate": "压缩速率",
+                    "networkRate": "网络速率"
+                  }
+                }
+              }
+            }
+          },
+          "modal": {
+            "delete": {
+              "title": "确认删除节点",
+              "content": "你确定要删除 **{name}** 吗？"
+            },
+            "bulkConfig": {
+              "title": "更新设置 - {nodes}",
+              "button": {
+                "apply": "套用至 {nodes}"
+              },
+              "toast": {
+                "applied": "设置已套用至 {nodes}。"
+              },
+              "error": {
+                "invalidYaml": "无效的 YAML：{error}"
+              }
+            }
+          }
+        },
+        "servers": {
+          "title": "服务器",
+          "resourceName": "服务器",
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建服务器",
+                "titleUpdate": "更新服务器",
+                "card": {
+                  "basicInformation": "基本信息",
+                  "serverAssignment": "服务器指派",
+                  "resourceLimits": "资源限制",
+                  "serverConfiguration": "服务器设置",
+                  "featureLimits": "功能限制",
+                  "allocations": "分配",
+                  "variables": "变量"
+                },
+                "alert": {
+                  "suspended": "此服务器已停权。",
+                  "selectEggForVariables": "请先选取 Egg 才能设置变量。"
+                },
+                "badge": {
+                  "serverSuspended": "服务器已停权"
+                },
+                "form": {
+                  "serverNamePlaceholder": "我的游戏服务器",
+                  "externalIdPlaceholder": "选填外部识别码",
+                  "descriptionPlaceholder": "服务器描述",
+                  "owner": "拥有者",
+                  "egg": "Egg",
+                  "backupConfigurationPlaceholder": "继承自节点/位置",
+                  "cpuLimit": "CPU 限制（%）",
+                  "cpuLimitDescription": "服务器可使用的 CPU 限制百分比，1 个线程 = 100%。",
+                  "swap": "Swap",
+                  "swapDescription": "分配给此服务器的 swap 大小，-1 表示不设限制。",
+                  "memoryDescription": "服务器容器的内存限制，0 表示不设限制。",
+                  "memoryOverhead": "内存额外开销",
+                  "memoryOverheadDescription": "将添加至容器的隐藏内存。",
+                  "diskSpace": "磁盘空间",
+                  "diskSpaceDescription": "服务器的磁盘限制。除非在 Wings 上设置了磁盘限制器，否则此为软限制。",
+                  "ioWeight": "IO 权重",
+                  "ioWeightDescription": "服务器容器相对于其他容器的 IO 权重，0-1000。可能无法在所有系统上运作。",
+                  "pinnedCpus": "固定 CPU",
+                  "pinnedCpusDescription": "此服务器固定使用的 CPU 内核（按索引，例如 0, 1, 2）。留空以允许使用所有内核。",
+                  "dockerImagePlaceholder": "ghcr.io/...",
+                  "predefinedDockerImages": "预定义 Docker 映像档",
+                  "predefinedDockerImagesPlaceholder": "未选取预定义映像档",
+                  "timezonePlaceholder": "Europe/Amsterdam",
+                  "startupCommandPlaceholder": "npm start",
+                  "startupCommandCustom": "自订",
+                  "startOnCompletion": "完成后启动",
+                  "startOnCompletionDescription": "安装完成后启动服务器。",
+                  "skipInstaller": "略过安装程序",
+                  "skipInstallerDescription": "略过运行安装脚本。",
+                  "hugepagesPassthroughEnabled": "激活 Hugepages 透传",
+                  "hugepagesPassthroughEnabledDescription": "为服务器激活 hugepages 透传（将 /dev/hugepages 挂载到容器中）。",
+                  "kvmPassthroughEnabled": "激活 KVM 透传",
+                  "kvmPassthroughEnabledDescription": "为服务器激活 KVM 透传（允许在容器内访问 /dev/kvm）。",
+                  "allocationsLimit": "分配",
+                  "databasesLimit": "数据库",
+                  "backupsLimit": "备份",
+                  "schedulesLimit": "调度"
+                },
+                "modal": {
+                  "confirmNoAllocation": {
+                    "title": "未指派主要分配",
+                    "content": "你正在创建服务器但未指派任何主要分配。你确定要继续吗？",
+                    "button": {
+                      "confirm": "仍要创建"
+                    }
+                  }
+                }
+              }
+            },
+            "allocations": {
+              "title": "分配",
+              "page": {
+                "title": "服务器分配",
+                "table": {
+                  "columns": {
+                    "ipAlias": "IP 别名"
+                  }
+                },
+                "form": {
+                  "notesPlaceholder": "备注"
+                },
+                "toast": {
+                  "updated": "分配已更新。",
+                  "setPrimary": "分配已设为主要。",
+                  "unsetPrimary": "分配已取消主要。",
+                  "removed": "分配已移除。",
+                  "added": "已添加 {count} 个分配。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加服务器分配",
+                    "form": {
+                      "allocations": "分配"
+                    },
+                    "button": {
+                      "add": "添加 {count}"
+                    }
+                  },
+                  "remove": {
+                    "title": "确认移除分配",
+                    "content": "你确定要移除 **{allocation}** 吗？"
+                  }
+                }
+              }
+            },
+            "variables": {
+              "title": "变量",
+              "page": {
+                "title": "服务器变量",
+                "toast": {
+                  "updated": "服务器变量已更新。"
+                }
+              }
+            },
+            "mounts": {
+              "title": "挂载",
+              "page": {
+                "title": "服务器挂载",
+                "toast": {
+                  "added": "服务器挂载已添加。",
+                  "deleted": "服务器挂载已删除。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加服务器挂载"
+                  },
+                  "remove": {
+                    "title": "确认移除服务器挂载",
+                    "content": "你确定要从 **{name}** 移除挂载 **{mount}** 吗？"
+                  }
+                }
+              }
+            },
+            "backups": {
+              "title": "备份",
+              "page": {
+                "title": "服务器备份",
+                "input": {
+                  "partiallyDetachedOnly": "仅显示部分卸离的备份"
+                }
+              }
+            },
+            "logs": {
+              "title": "纪录",
+              "page": {
+                "title": "服务器纪录",
+                "form": {
+                  "logType": "纪录类型"
+                },
+                "enum": {
+                  "logType": {
+                    "console": "主控台",
+                    "install": "安装"
+                  }
+                }
+              }
+            },
+            "management": {
+              "title": "管理",
+              "page": {
+                "title": "服务器管理",
+                "transfer": {
+                  "title": "转移",
+                  "content": "将此服务器及其数据转移至此系统内的另一个节点。",
+                  "toast": {
+                    "started": "服务器转移已开始。"
+                  },
+                  "modal": {
+                    "title": "服务器转移",
+                    "form": {
+                      "backupsToTransfer": "要转移的备份"
+                    },
+                    "tooltip": {
+                      "aioNotSupported": "不支持转移至 All-In-One 节点。"
+                    },
+                    "confirm": {
+                      "title": "确认服务器转移",
+                      "content": "你确定要将 **{name}** 从 **{from}** 转移到 **{to}** 吗？",
+                      "alert": {
+                        "notAllBackupsSelected": "你尚未选取所有要转移的备份，若转移成功完成，剩余的备份将变为部分卸离状态。"
+                      }
+                    }
+                  }
+                },
+                "suspend": {
+                  "title": "停权",
+                  "content": "这将停权服务器、停止所有运行中的进程，并立即阻止用户通过面板或 API 访问其文件或以其他方式管理服务器。",
+                  "button": "停权",
+                  "toast": {
+                    "suspended": "服务器已停权。"
+                  },
+                  "modal": {
+                    "title": "确认服务器停权",
+                    "content": "你确定要停权 **{name}** 吗？这将停止服务器并防止其启动。所有运行中的进程将被停止，且用户将无法通过面板或 API 访问其文件或以其他方式管理服务器。"
+                  }
+                },
+                "unsuspend": {
+                  "title": "解除停权",
+                  "content": "这将解除服务器的停权状态，允许其再次启动。用户将能通过面板或 API 访问其文件并以其他方式管理服务器。",
+                  "button": "解除停权",
+                  "toast": {
+                    "unsuspended": "服务器已解除停权。"
+                  },
+                  "modal": {
+                    "title": "确认解除服务器停权",
+                    "content": "你确定要解除 **{name}** 的停权吗？这将允许服务器再次启动。用户将能通过面板或 API 访问其文件并以其他方式管理服务器。"
+                  }
+                },
+                "clearState": {
+                  "title": "清除状态",
+                  "content": "这将清除面板已知的服务器状态。",
+                  "button": "清除状态",
+                  "toast": {
+                    "cleared": "服务器状态已清除。"
+                  },
+                  "modal": {
+                    "title": "确认清除服务器状态",
+                    "content": "你确定要清除 **{name}** 的状态吗？这将清除所有已知的待处理转移和状态失败，请确保这样做是安全的再点击。"
+                  }
+                },
+                "delete": {
+                  "title": "删除",
+                  "content": "这将删除服务器及其所有数据。此操作无法复原。",
+                  "toast": {
+                    "deleted": "服务器已删除。"
+                  },
+                  "modal": {
+                    "title": "确认删除服务器",
+                    "description": "你即将删除 **{name}**。你确定吗？",
+                    "form": {
+                      "force": "你要强制删除此服务器吗？",
+                      "deleteBackups": "你要删除此服务器的备份吗？",
+                      "confirmServerName": "确认服务器名称",
+                      "confirmServerNamePlaceholder": "服务器名称"
+                    }
+                  }
+                }
+              }
+            },
+            "viewClient": {
+              "title": "在客户端区域查看"
+            }
+          }
+        },
+        "nests": {
+          "title": "Nest",
+          "resourceName": "Nest",
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建 Nest",
+                "titleUpdate": "更新 Nest",
+                "modal": {
+                  "delete": {
+                    "title": "确认删除 Nest",
+                    "content": "你确定要删除 **{name}** 吗？",
+                    "form": {
+                      "deleteEggs": "你要删除此 Nest 中的所有 Egg 吗？"
+                    }
+                  }
+                }
+              }
+            },
+            "eggs": {
+              "title": "Egg",
+              "page": {
+                "title": "Egg",
+                "resourceName": "Egg",
+                "dropzone": {
+                  "title": "将一些文件拖放到此处以导入为 Egg",
+                  "subtitle": "放开即可开始导入"
+                },
+                "button": {
+                  "updateFromRepository": "从保存库更新"
+                },
+                "toast": {
+                  "imported": "Egg 已导入。",
+                  "moved": "Egg 已移动。",
+                  "movedBulk": "已移动 {eggs}。",
+                  "deletedBulk": "已删除 {eggs}。",
+                  "updatedFromRepository": "已使用各自对应的保存库 Egg 成功更新 {eggs}。",
+                  "parseFailed": "无法剖析 Egg：{error}"
+                },
+                "modal": {
+                  "move": {
+                    "title": "移动 Egg"
+                  },
+                  "moveBulk": {
+                    "title": "移动 Egg",
+                    "confirm": "移动 {eggs}"
+                  },
+                  "deleteBulk": {
+                    "title": "确认删除 Egg",
+                    "content": "你确定要删除 `{count}` 个 Egg 吗？"
+                  }
+                },
+                "tabs": {
+                  "general": {
+                    "page": {
+                      "titleCreate": "创建 Egg",
+                      "titleUpdate": "更新 Egg",
+                      "card": {
+                        "startupConfiguration": "启动设置",
+                        "stopConfiguration": "停止设置",
+                        "configFiles": "设置档设置"
+                      },
+                      "form": {
+                        "eggRepository": "Egg 保存库",
+                        "eggRepositoryEgg": "Egg 保存库 Egg",
+                        "startupDone": "启动完成",
+                        "startupDoneDescription": "表示启动完成的主控台消息。",
+                        "stripAnsi": "从启动消息中移除 ANSI",
+                        "stripAnsiDescription": "在比对启动完成前从主控台输出中移除 ANSI 控制字符。",
+                        "stopType": "停止类型",
+                        "stopCommand": "停止指令",
+                        "stopSignal": "停止信号",
+                        "parser": "剖析器",
+                        "createNewFile": "创建新文件",
+                        "createNewFileDescription": "若激活，当文件不存在时将会创建。若停用，文件必须已存在，否则替换将失败。",
+                        "match": "比对",
+                        "ifValue": "若值",
+                        "replaceWith": "替换为",
+                        "insertNew": "插入新值",
+                        "insertNewDescription": "若激活，当没有现有值符合「比对」字段时，将把「替换为」的值插入文件中。若停用，当找不到符合的值时，将不会对文件进行任何变更。",
+                        "updateExisting": "更新现有值",
+                        "updateExistingDescription": "若激活，当找到符合的值时，将以「替换为」的值进行替换。若停用，替换仅会插入新值，且若找到符合的值将会失败。",
+                        "startupCommands": "启动指令",
+                        "forceOutgoingIp": "强制输出 IP",
+                        "separatePort": "分离 IP 与连接端口",
+                        "separatePortDescription": "在主控台页面上分离主要 IP 与连接端口，而非以「:」连接。",
+                        "features": "功能",
+                        "featurePlaceholder": "功能",
+                        "fileDenylist": "文件拒绝清单",
+                        "dockerImages": "Docker 映像档"
+                      },
+                      "enum": {
+                        "stopType": {
+                          "command": "发送指令",
+                          "signal": "发送信号",
+                          "docker": "Docker 停止"
+                        }
+                      },
+                      "emptyConfigFiles": "未定义任何设置档。",
+                      "emptyReplacements": "未定义任何替换规则。",
+                      "button": {
+                        "addReplacement": "添加替换规则",
+                        "addConfigFile": "添加设置档",
+                        "fromFile": "从文件",
+                        "fromRepository": "从保存库"
+                      },
+                      "toast": {
+                        "exported": "Egg 已导出。",
+                        "updated": "Egg 已更新。"
+                      },
+                      "modal": {
+                        "delete": {
+                          "title": "确认删除 Egg",
+                          "content": "你确定要删除 **{name}** 吗？"
+                        }
+                      }
+                    }
+                  },
+                  "installationScript": {
+                    "title": "安装脚本",
+                    "page": {
+                      "title": "Egg 安装脚本",
+                      "form": {
+                        "container": "安装容器",
+                        "entrypoint": "容器进入点"
+                      },
+                      "toast": {
+                        "updated": "Egg 脚本已更新。"
+                      }
+                    }
+                  },
+                  "variables": {
+                    "title": "变量",
+                    "page": {
+                      "title": "Egg 变量",
+                      "form": {
+                        "supportsMarkdown": "支持 Markdown 格式。",
+                        "defaultValue": "默认值",
+                        "defaultValuePlaceholder": "server.jar",
+                        "userViewable": "用户可见",
+                        "userEditable": "用户可编辑",
+                        "secret": "密级",
+                        "rules": "规则",
+                        "rulesDescription": "请参阅 https://laravel.com/docs/12.x/validation#available-validation-rules 了解可用的验证规则。"
+                      },
+                      "toast": {
+                        "created": "Egg 变量已创建。",
+                        "updated": "Egg 变量已更新。",
+                        "deleted": "Egg 变量已删除。"
+                      },
+                      "modal": {
+                        "delete": {
+                          "title": "确认移除 Egg 变量",
+                          "content": "你确定要移除 **{variable}** 吗？",
+                          "emptyVariable": "此空白变量"
+                        }
+                      }
+                    }
+                  },
+                  "mounts": {
+                    "title": "挂载",
+                    "page": {
+                      "title": "Egg 挂载",
+                      "toast": {
+                        "added": "Egg 挂载已添加。",
+                        "deleted": "Egg 挂载已删除。"
+                      },
+                      "modal": {
+                        "add": {
+                          "title": "添加 Egg 挂载"
+                        },
+                        "delete": {
+                          "title": "确认移除 Egg 挂载",
+                          "content": "你确定要从 **{egg}** 移除挂载 **{mount}** 吗？"
+                        }
+                      }
+                    }
+                  },
+                  "servers": {
+                    "title": "服务器",
+                    "page": {
+                      "title": "Egg 服务器"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "eggConfigurations": {
+          "title": "Egg 设置",
+          "resourceName": "Egg 设置",
+          "table": {
+            "columns": {
+              "order": "顺序"
+            }
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建 Egg 设置",
+                "titleUpdate": "更新 Egg 设置",
+                "form": {
+                  "order": "顺序",
+                  "eggs": "Egg",
+                  "eggsPlaceholder": "选取 Egg"
+                },
+                "enum": {
+                  "deploymentType": {
+                    "random": "随机",
+                    "range": "连接端口范围",
+                    "addPrimary": "加到主要",
+                    "subtractPrimary": "从主要减去",
+                    "multiplyPrimary": "乘以主要",
+                    "dividePrimary": "除以主要"
+                  }
+                },
+                "allocation": {
+                  "title": "分配设置",
+                  "form": {
+                    "userSelfAssign": "用户自行分配",
+                    "userSelfAssignDescription": "允许用户从指定的连接端口范围自行创建分配。",
+                    "requirePrimaryAllocation": "需要主要分配",
+                    "requirePrimaryAllocationDescription": "用户是否必须始终拥有一个主要分配。",
+                    "automaticAllocationStart": "自动分配起始",
+                    "automaticAllocationEnd": "自动分配结束",
+                    "dedicatedIp": "专用 IP",
+                    "dedicatedIpDescription": "为使用此 Egg 设置的服务器指派专用 IP 地址。",
+                    "primaryAllocation": "主要分配",
+                    "primaryAllocationDescription": "为部署设置主要连接端口指派。",
+                    "primaryStartPort": "主要起始连接端口",
+                    "primaryEndPort": "主要结束连接端口",
+                    "assignToVariable": "指派到变量",
+                    "assignToVariablePlaceholder": "例如 SERVER_PORT",
+                    "assignToVariableDescription": "选填的环境变量，用于接收指派的主要连接端口。"
+                  },
+                  "divider": {
+                    "deployment": "部署"
+                  },
+                  "additionalPorts": {
+                    "title": "额外连接端口",
+                    "button": "添加规则",
+                    "empty": "未设置额外的连接端口规则。"
+                  },
+                  "deployment": {
+                    "form": {
+                      "startPort": "起始连接端口",
+                      "endPort": "结束连接端口",
+                      "assignToVariable": "指派到变量",
+                      "assignToVariableDescription": "选填的环境变量，用于接收此规则指派的连接端口。",
+                      "assignToVariablePlaceholder": "例如 SERVER_PORT"
+                    },
+                    "removeRule": "移除部署规则"
+                  }
+                },
+                "startup": {
+                  "title": "启动设置",
+                  "form": {
+                    "allowCustomStartupCommand": "允许自订启动指令",
+                    "allowCustomStartupCommandDescription": "允许用户设置自己非预定义的启动指令。"
+                  }
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除 Egg 设置",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "eggRepositories": {
+          "title": "Egg 保存库",
+          "resourceName": "Egg 保存库",
+          "table": {
+            "columns": {
+              "gitRepository": "Git 保存库"
+            }
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建 Egg 保存库",
+                "titleUpdate": "更新 Egg 保存库",
+                "form": {
+                  "gitRepository": "Git 保存库"
+                },
+                "button": {
+                  "sync": "同步"
+                },
+                "toast": {
+                  "synced": "Egg 保存库已同步，找到 {eggs}。"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除 Egg 保存库",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "eggs": {
+              "title": "Egg",
+              "page": {
+                "title": "Egg 保存库 Egg",
+                "table": {
+                  "columns": {
+                    "path": "路径"
+                  }
+                },
+                "toast": {
+                  "installed": "Egg 已安装。",
+                  "installedBulk": "已安装 {eggs}。"
+                },
+                "modal": {
+                  "install": {
+                    "title": "安装 Egg 保存库 Egg"
+                  },
+                  "installBulk": {
+                    "title": "安装 Egg 保存库 Egg",
+                    "button": "安装 {eggs}"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "databaseHosts": {
+          "title": "数据库主机",
+          "resourceName": "数据库主机",
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建数据库主机",
+                "titleUpdate": "更新数据库主机",
+                "form": {
+                  "publicHost": "公开主机",
+                  "publicPort": "公开连接端口",
+                  "connectionCredentials": "连接凭证",
+                  "credentialType": "凭证类型",
+                  "connectionString": "连接字符串",
+                  "connectionStringPlaceholder": "mysql://username:password@host:port"
+                },
+                "enum": {
+                  "credentialType": {
+                    "connectionString": "连接字符串",
+                    "details": "详细数据"
+                  }
+                },
+                "button": {
+                  "testConnection": "测试连接"
+                },
+                "toast": {
+                  "tested": "测试已成功完成。"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除数据库主机",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "databases": {
+              "title": "数据库",
+              "page": {
+                "title": "数据库主机数据库"
+              }
+            }
+          }
+        },
+        "oAuthProviders": {
+          "title": "OAuth 提供者",
+          "resourceName": "OAuth 提供者",
+          "dropzone": {
+            "title": "将一些文件拖放到此处以导入为 OAuth 提供者",
+            "subtitle": "放开即可开始导入"
+          },
+          "table": {
+            "columns": {
+              "loginOnly": "仅限登录",
+              "linkViewable": "链接可见",
+              "userManageable": "用户可管理"
+            }
+          },
+          "toast": {
+            "imported": "OAuth 提供者已导入。",
+            "parseFailed": "无法剖析 OAuth 提供者：{error}"
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建 OAuth 提供者",
+                "titleUpdate": "更新 OAuth 提供者",
+                "card": {
+                  "redirectUrl": {
+                    "title": "重新导向 URL",
+                    "unavailable": "创建后可用"
+                  }
+                },
+                "form": {
+                  "clientId": "Client ID",
+                  "clientSecret": "Client Secret",
+                  "authUrl": "验证 URL",
+                  "tokenUrl": "权杖 URL",
+                  "infoUrl": "信息 URL",
+                  "basicAuth": "Basic 验证",
+                  "basicAuthDescription": "使用 HTTP Basic 验证传输 client ID 和 secret，已不常见。",
+                  "scopes": "范围",
+                  "scopesDescription": "要请求的 OAuth2 范围，必要时请确保包含电子邮件和个人数据信息的范围。",
+                  "identifierPath": "识别码路径",
+                  "identifierPathDescription": "用于从信息 URL 回应中截取唯一用户识别码的路径（https://serdejsonpath.live）。",
+                  "emailPath": "电子邮件路径",
+                  "emailPathDescription": "用于从信息 URL 回应中截取电子邮件的路径（https://serdejsonpath.live）。",
+                  "usernamePath": "用户名路径",
+                  "usernamePathDescription": "用于从信息 URL 回应中截取用户名的路径（https://serdejsonpath.live）。",
+                  "nameFirstPath": "名字路径",
+                  "nameFirstPathPlaceholder": "名字 URL",
+                  "nameFirstPathDescription": "用于从信息 URL 回应中截取名字的路径（https://serdejsonpath.live）。",
+                  "nameLastPath": "姓氏路径",
+                  "nameLastPathDescription": "用于从信息 URL 回应中截取姓氏的路径（https://serdejsonpath.live）。",
+                  "loginOnly": "仅允许登录",
+                  "loginBypass2fa": "登录时略过 2FA",
+                  "loginBypass2faDescription": "允许使用此提供者登录的用户略过面板 2FA。",
+                  "linkViewable": "链接对用户可见",
+                  "linkViewableDescription": "允许用户在客户端 UI 中看到连接及其识别码。",
+                  "userManageable": "链接可由用户管理",
+                  "userManageableDescription": "允许用户通过此提供者进行连接与中断连接。"
+                },
+                "toast": {
+                  "exported": "OAuth 提供者已导出。"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除 OAuth 提供者",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "mappings": {
+              "title": "对应",
+              "page": {
+                "title": "OAuth 提供者对应",
+                "table": {
+                  "columns": {
+                    "scopes": "范围"
+                  }
+                },
+                "enum": {
+                  "mappingType": {
+                    "role": "角色",
+                    "serverSubuser": "服务器子用户"
+                  }
+                },
+                "toast": {
+                  "created": "OAuth 提供者对应已创建。",
+                  "updated": "OAuth 提供者对应已更新。",
+                  "deleted": "OAuth 提供者对应已删除。"
+                },
+                "form": {
+                  "scopes": "范围",
+                  "scopesDescription": "此对应套用所需的 OAuth 范围。",
+                  "mappingType": "对应类型",
+                  "role": "角色",
+                  "permissions": "权限"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加 OAuth 提供者对应"
+                  },
+                  "edit": {
+                    "title": "编辑 OAuth 提供者对应"
+                  },
+                  "delete": {
+                    "title": "删除 OAuth 提供者对应",
+                    "content": "你确定要删除此对应吗？此操作无法复原。"
+                  }
+                }
+              }
+            },
+            "users": {
+              "title": "用户",
+              "page": {
+                "title": "OAuth 提供者用户",
+                "table": {
+                  "columns": {
+                    "user": "用户"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "backupConfigurations": {
+          "title": "备份设置",
+          "resourceName": "备份设置",
+          "table": {
+            "columns": {
+              "disk": "磁盘"
+            }
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建备份设置",
+                "titleUpdate": "更新备份设置",
+                "alert": {
+                  "ddupBak": "Ddup-Bak 为技术预览软件，技术上不建议用于生产环境。若你了解并接受，请自行决定是否使用。",
+                  "btrfs": "Btrfs 需要在节点上进行额外设置才能运作，请[参阅文档]({docsUrl})了解更多详情。",
+                  "zfs": "ZFS 需要在节点上进行额外设置才能运作，请[参阅文档]({docsUrl})了解更多详情。",
+                  "pbs": "提供的 API 权杖需要以下数据保存区 ACL：**DatastoreAudit**（用于使用与列出）、**DatastoreBackup**（用于写入备份），以及若激活备份删除或清理，需要 **DatastoreAdmin**（或等效的清理/删除权限）。"
+                },
+                "form": {
+                  "backupDisk": "备份磁盘",
+                  "maintenanceEnabledDescription": "若激活，使用此备份设置的任何服务器将无法创建新备份或管理现有备份。",
+                  "shared": "共用",
+                  "sharedDescription": "若激活，此备份设置上的备份将不会在节点间转移，它们将被假设为所有节点皆可访问。"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除备份设置",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                },
+                "s3": {
+                  "title": "S3 设置",
+                  "form": {
+                    "partSize": "分段大小",
+                    "pathStyle": "使用路径样式 URL"
+                  }
+                },
+                "restic": {
+                  "title": "Restic 设置",
+                  "form": {
+                    "repository": "保存库",
+                    "retryLockSeconds": "重试锁定秒数",
+                    "environmentVariables": "环境变量",
+                    "cronSchedule": "Cron 调度",
+                    "cronScheduleDescription": "格式：秒 分 时 日 月 周。",
+                    "nodes": "节点",
+                    "nodesPlaceholder": "选取节点"
+                  },
+                  "pruneJobs": {
+                    "title": "清理作业",
+                    "description": "排定的 restic 清理运行。每个作业根据其 cron 调度在设置的节点上运行。",
+                    "button": {
+                      "add": "添加清理作业"
+                    }
+                  }
+                },
+                "pbs": {
+                  "title": "Proxmox Backup Server 设置",
+                  "form": {
+                    "url": "服务器 URL",
+                    "datastore": "数据保存区",
+                    "namespace": "命名空间",
+                    "tokenId": "权杖 ID",
+                    "tokenSecret": "权杖密钥",
+                    "fingerprint": "TLS 凭证指纹",
+                    "backupIdPrefix": "备份 ID 前缀"
+                  }
+                },
+                "kopia": {
+                  "title": "Kopia 设置",
+                  "form": {
+                    "url": "Kopia 服务器 URL",
+                    "fingerprint": "TLS 凭证指纹",
+                    "tags": "备份标签"
+                  }
+                }
+              }
+            },
+            "stats": {
+              "title": "统计",
+              "page": {
+                "title": "备份设置统计",
+                "card": {
+                  "title": "备份统计"
+                },
+                "period": {
+                  "allTime": "全部时间",
+                  "today": "今天",
+                  "week": "本周",
+                  "month": "本月"
+                },
+                "periodLabel": {
+                  "allTime": "全部时间",
+                  "today": "今天",
+                  "week": "本周",
+                  "month": "本月"
+                },
+                "stat": {
+                  "total": "{period} 总备份数",
+                  "successful": "{period} 成功备份数",
+                  "failed": "{period} 失败备份数",
+                  "deleted": "{period} 已删除备份数"
+                }
+              }
+            },
+            "backups": {
+              "title": "备份",
+              "page": {
+                "title": "备份设置备份",
+                "toast": {
+                  "downloadStarted": "下载已开始。"
+                }
+              }
+            },
+            "locations": {
+              "title": "位置",
+              "page": {
+                "title": "备份设置位置"
+              }
+            },
+            "nodes": {
+              "title": "节点",
+              "page": {
+                "title": "备份设置节点"
+              }
+            },
+            "servers": {
+              "title": "服务器",
+              "page": {
+                "title": "备份设置服务器"
+              }
+            }
+          }
+        },
+        "mounts": {
+          "title": "挂载",
+          "resourceName": "挂载",
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建挂载",
+                "titleUpdate": "更新挂载",
+                "alert": "挂载是一项强大且潜在危险的功能。不当使用可能导致数据遗失或安全漏洞（包括容器逃逸）。在创建或更新挂载前，请确保你了解使用挂载的影响。",
+                "form": {
+                  "source": "来源",
+                  "target": "目标",
+                  "readOnly": "唯读",
+                  "userMountable": "用户可挂载"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除挂载",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "eggs": {
+              "title": "Egg",
+              "page": {
+                "title": "挂载 Egg",
+                "toast": {
+                  "added": "挂载 Egg 已添加。",
+                  "removed": "挂载 Egg 已删除。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加挂载 Egg",
+                    "form": {
+                      "egg": "Egg"
+                    }
+                  },
+                  "remove": {
+                    "title": "确认移除挂载 Egg",
+                    "content": "你确定要从 **{name}** 移除挂载 **{mount}** 吗？"
+                  }
+                }
+              }
+            },
+            "nodes": {
+              "title": "节点",
+              "page": {
+                "title": "挂载节点",
+                "toast": {
+                  "added": "挂载节点已添加。",
+                  "removed": "挂载节点已删除。"
+                },
+                "modal": {
+                  "add": {
+                    "title": "添加挂载节点"
+                  },
+                  "remove": {
+                    "title": "确认移除挂载节点",
+                    "content": "你确定要从 **{name}** 移除挂载 **{mount}** 吗？"
+                  }
+                }
+              }
+            },
+            "servers": {
+              "title": "服务器",
+              "page": {
+                "title": "挂载服务器"
+              }
+            }
+          }
+        },
+        "roles": {
+          "title": "角色",
+          "resourceName": "角色",
+          "table": {
+            "columns": {
+              "serverPermissions": "服务器权限",
+              "adminPermissions": "管理员权限"
+            }
+          },
+          "tabs": {
+            "general": {
+              "page": {
+                "titleCreate": "创建角色",
+                "titleUpdate": "更新角色",
+                "alert": {
+                  "impersonate": "此角色拥有 `users.impersonate` 权限，允许拥有此角色的用户仿真任何其他用户（包括管理员）的身分。将此权限指派给信任度较低的用户角色时请谨慎。"
+                },
+                "form": {
+                  "requireTwoFactor": "需要双因素验证",
+                  "requireTwoFactorDescription": "要求拥有此角色的用户使用双因素验证。",
+                  "serverPermissions": "服务器权限",
+                  "adminPermissions": "管理员权限"
+                },
+                "modal": {
+                  "delete": {
+                    "title": "确认删除角色",
+                    "content": "你确定要删除 **{name}** 吗？"
+                  }
+                }
+              }
+            },
+            "users": {
+              "title": "用户",
+              "page": {
+                "title": "角色用户"
+              }
+            }
+          }
+        },
+        "activity": {
+          "title": "活动"
+        }
+      },
+      "server": {
+        "viewAdmin": {
+          "title": "查看管理"
+        },
+        "console": {
+          "title": "主控台",
+          "input": {
+            "placeholder": "输入指令...",
+            "ariaLabel": "主控台指令输入。"
+          },
+          "toast": {
+            "installCancelled": "服务器安装已取消。",
+            "transferCancelled": "服务器转移已取消。"
+          },
+          "modal": {
+            "sshDetails": {
+              "title": "SSH 详细信息",
+              "form": {
+                "command": "SSH 指令"
+              },
+              "launch": "启动"
+            }
+          },
+          "notification": {
+            "suspended": "你的服务器目前已停权。在停权解除前无法运行任何动作。",
+            "suspendedAdmin": "此服务器目前已停权。由于你是管理员，仍可访问服务器，但可用动作受限。",
+            "nodeMaintenance": "你的服务器所在的节点目前正在维护。",
+            "transferring": "你的服务器目前正在转移到另一个节点。",
+            "restoringBackup": "你的服务器目前正在从备份还原。请稍候...",
+            "installing": "你的服务器目前正在安装。请稍候...",
+            "pendingRestart": "你的服务器有待处理的变更需要重新启动。请重新启动服务器以套用这些变更。"
+          },
+          "message": {
+            "serverMarkedAs": "服务器已标记为 {state}...",
+            "installFailed": "安装失败。",
+            "installCompleted": "安装已成功完成。",
+            "transferFailed": "转移失败。",
+            "transferCompleted": "转移已成功完成。正在重新连接到服务器...",
+            "pullingImage": "你的服务器目前正在拉取其 Docker 映像档。请稍候...",
+            "pulling": "拉取中",
+            "extracting": "解压缩中"
+          },
+          "tooltip": {
+            "search": "搜索",
+            "sshDetails": "SSH 详细信息",
+            "commandHistory": "指令历史纪录",
+            "decreaseFontSize": "缩小字体大小",
+            "increaseFontSize": "放大字体大小"
+          },
+          "drawer": {
+            "commandHistory": {
+              "title": "指令历史纪录",
+              "detailTitle": "指令详细信息",
+              "noCommands": "找不到指令。",
+              "copyButton": "拷贝指令",
+              "sendButton": "发送指令",
+              "commandSent": "指令已成功发送。"
+            }
+          },
+          "feature": {
+            "eula": {
+              "title": "Minecraft EULA 协议",
+              "content": "Minecraft 服务器需要你接受 [Minecraft 用户授权合约](https://minecraft.net/eula) 后才能启动。",
+              "contentDetails": "点击「接受 EULA」即表示你同意 Minecraft EULA 的条款，且 **eula.txt** 文件会更新为 **eula=true**。",
+              "toast": {
+                "accepted": "已成功接受 EULA。"
+              },
+              "button": {
+                "accept": "接受 EULA"
+              }
+            },
+            "javaVersion": {
+              "title": "不支持的 Java 版本",
+              "content": "此服务器目前运行的是不支持的 Java 版本，无法启动。",
+              "contentDetails": "请从下方清单中选取支持的 Docker 映像档以继续启动服务器。",
+              "toast": {
+                "updated": "Docker 映像档已成功更新。"
+              },
+              "button": {
+                "update": "更新 Docker 映像档"
+              }
+            }
+          },
+          "details": {
+            "address": "地址",
+            "port": "连接端口",
+            "uptime": "运行时间",
+            "cpuLoad": "CPU 负载",
+            "memoryLoad": "内存负载",
+            "diskUsage": "磁盘使用量",
+            "networkIn": "网络（传入）",
+            "networkOut": "网络（传出）",
+            "normalizeCpuLoad": "范式 CPU 负载（偏移到最大 100%）"
+          },
+          "power": {
+            "modal": {
+              "forceStop": {
+                "title": "强制停止进程",
+                "content": "强制停止服务器可能导致数据损毁。"
+              }
+            }
+          },
+          "stats": {
+            "cpuLoad": "CPU 负载",
+            "memoryLoad": "内存负载",
+            "network": "网络",
+            "inbound": "传入",
+            "outbound": "传出"
+          },
+          "socketConnected": "已连接（{ping}ms ping）",
+          "socketDisconnected": "已中断连接"
+        },
+        "files": {
+          "title": "文件",
+          "titleEditorViewing": "正在查看 {file}",
+          "titleEditorPlaying": "正在播放 {file}",
+          "titleEditorEditing": "正在编辑 {file}",
+          "titleEditorNew": "新文件",
+          "titleDiffRevisionVsCurrent": "{file} - 修订版本 #{revision} vs 目前",
+          "titleDiffRevisionVsRevision": "{file} - 修订版本 #{previousRevision} vs #{revision}",
+          "table": {
+            "columns": {
+              "modified": "已修改"
+            }
+          },
+          "button": {
+            "new": "添加",
+            "connect": "连接",
+            "connectSftp": "通过 SFTP",
+            "connectVscode": "通过 VS Code",
+            "openInNewWindow": "在新窗口中打开",
+            "rename": "重命名",
+            "copy": "拷贝",
+            "fingerprint": "指纹",
+            "permissions": "权限",
+            "unarchive": "解压缩",
+            "archive": "压缩",
+            "more": "更多",
+            "remoteCopy": "远程拷贝",
+            "search": "搜索",
+            "exitBackup": "离开备份",
+            "fileFromEditor": "创建文件",
+            "directory": "创建目录",
+            "fileFromPull": "从网址导入",
+            "fileFromUpload": "上传文件",
+            "directoryFromUpload": "上传目录"
+          },
+          "actionBar": {
+            "copyHere": "将 {files} 拷贝到这里",
+            "moveHere": "将 {files} 移动到这里"
+          },
+          "searchBanner": {
+            "resultsTitle": "搜索结果（找到 {files}）",
+            "query": "查找：",
+            "excluded": "已排除：",
+            "content": "内容：",
+            "size": "大小：",
+            "min": "最小：",
+            "max": "最大："
+          },
+          "operations": {
+            "uploadingFolder": "正在上传文件夹：{folder}（{files}）",
+            "waiting": "等待中：",
+            "uploading": "上传中：",
+            "compressing": "正在从 {path} 压缩 {files}",
+            "decompressing": "正在解压缩 {path}",
+            "pulling": "正在拉取 {destination}",
+            "copying": "正在将 {path} 拷贝到 {destination}",
+            "copyingMany": "正在拷贝 {files}",
+            "receivingRemote": "正在从远程服务器接收 {files}",
+            "sendingRemote": "正在发送 {files} 到远程服务器",
+            "rateLimited": "你的上传受到速率限制。等待中...",
+            "cancelAllUploads": "取消所有上传",
+            "cancelAllOperations": "取消所有操作"
+          },
+          "dropzone": {
+            "title": "将文件拖放到此处以上传",
+            "subtitle": "放开即可开始上传"
+          },
+          "settings": {
+            "clickOnce": "点击一次即可打开文件或文件夹",
+            "preferPhysicalSize": "显示实体大小而非逻辑大小",
+            "editorMinimap": "显示文件迷你地图",
+            "editorLineOverflow": "换行显示超出内容",
+            "vscodeUriScheme": "VS Code URI 协定",
+            "imageViewerSmoothing": "平滑图片（反锯齿）"
+          },
+          "toast": {
+            "operationCancelled": "操作已取消",
+            "allOperationsCancelled": "所有操作都已取消。",
+            "copyingStarted": "{files} 已开始拷贝。",
+            "filesCouldNotBeMoved": "无法移动文件。",
+            "filesMoved": "{files} 已移动。",
+            "downloadStarted": "下载已开始。",
+            "filesDeleted": "文件已删除。",
+            "archiveCreationStarted": "已开始创建压缩档。",
+            "fileCopyingStarted": "已开始拷贝文件。",
+            "fileInfoRetrieved": "已成功取得文件信息。",
+            "filePullingStarted": "已开始拉取文件。",
+            "fileRenamed": "文件已重命名。",
+            "fileCouldNotBeRenamed": "无法重命名文件。",
+            "filesRenamed": "已重命名 {files}。",
+            "permissionsUpdated": "权限已更新。",
+            "permissionsUpdatedMany": "已更新 {files} 的权限。",
+            "permissionsCouldNotBeUpdated": "无法更新权限。",
+            "fileSaved": "文件已保存。"
+          },
+          "tooltip": {
+            "fileHistory": "文件历史",
+            "largestDirectories": "分析目录大小",
+            "dragToMove": "拖曳以移动",
+            "back": "后退 {seconds} 秒",
+            "forward": "前进 {seconds} 秒",
+            "play": "播放",
+            "pause": "暂停",
+            "mute": "静音",
+            "unmute": "取消静音"
+          },
+          "drawer": {
+            "revisions": {
+              "title": "文件历史",
+              "noRevisions": "找不到此文件的修订版本。",
+              "restored": "修订版本已还原到编辑器。",
+              "badge": {
+                "fullSnapshot": "完整快照"
+              },
+              "tooltip": {
+                "restore": "将此修订版本还原到编辑器",
+                "viewDiff": "查看与目前文件的差异",
+                "compareToPrevious": "与上一个修订版本比较"
+              },
+              "diff": {
+                "original": "修订版本",
+                "current": "目前"
+              }
+            }
+          },
+          "modal": {
+            "activeUploads": {
+              "title": "进行中的上传",
+              "content": "你确定要离开此页面吗？你有 {files} 个进行中的文件上传。若离开此页面，文件上传将会中止。"
+            },
+            "unsavedChanges": {
+              "title": "未保存的变更",
+              "content": "文件编辑器中有未保存的变更。你确定要离开此页面吗？若离开，变更将会遗失。"
+            },
+            "draftRestore": {
+              "title": "还原草稿",
+              "content": "在你的浏览器中找到此文件的草稿。你要还原它吗？",
+              "contentHashMismatch": "自保存此草稿后，服务器上的文件已被修改。还原草稿可能会覆写那些变更。"
+            },
+            "createArchive": {
+              "title": "创建压缩档",
+              "form": {
+                "format": "格式"
+              },
+              "createdAs": "此压缩档将创建为 "
+            },
+            "createDirectory": {
+              "title": "创建目录",
+              "createdAs": "此目录将创建为 "
+            },
+            "copyFile": {
+              "title": "拷贝文件",
+              "createdAs": "此文件将创建为 "
+            },
+            "copyRemote": {
+              "title": "远程拷贝文件",
+              "form": {
+                "server": "服务器"
+              },
+              "createdAs": "这些文件将创建在远程服务器的 "
+            },
+            "fileFingerprints": {
+              "title": "文件指纹",
+              "form": {
+                "algorithm": "算法",
+                "fingerprint": "指纹"
+              },
+              "button": {
+                "calculate": "计算指纹"
+              }
+            },
+            "deleteFile": {
+              "title": "删除文件",
+              "singleFileWarning": "删除后将无法复原 {file} 的内容。",
+              "multipleFilesWarning": "删除后将无法复原以下文件的内容。"
+            },
+            "createFile": {
+              "title": "创建文件"
+            },
+            "details": {
+              "title": "文件详细信息",
+              "path": "路径",
+              "mode": "模式",
+              "logicalSize": "逻辑大小",
+              "physicalSize": "实体大小",
+              "mimeType": "MIME 类型",
+              "lastModifiedAt": "上次修改时间",
+              "createdAt": "创建时间"
+            },
+            "filePermissions": {
+              "title": "文件权限",
+              "form": {
+                "recursive": "将变更递归套用至此目录中的所有文件和子目录"
+              },
+              "symbolic": "符号：",
+              "octal": "八进位：",
+              "owner": "拥有者",
+              "group": "群组",
+              "other": "其他",
+              "breakdown": "权限明细",
+              "readPermission": "读取权限（4）",
+              "writePermission": "写入权限（2）",
+              "executePermission": "运行权限（1）"
+            },
+            "renameFile": {
+              "title": "重命名文件"
+            },
+            "massRename": {
+              "title": "重命名文件",
+              "find": "寻找",
+              "findPlaceholder": "要寻找的文本",
+              "replace": "替换为",
+              "replacePlaceholder": "替换文本",
+              "scope": "套用至",
+              "scopeName": "名称",
+              "scopeExtension": "扩展名",
+              "scopeFull": "完整名称",
+              "section": {
+                "matchOptions": "比对选项",
+                "affixes": "前缀与后缀",
+                "caseConversion": "大小写转换",
+                "numbering": "编号"
+              },
+              "affix": {
+                "prefix": "前缀",
+                "suffix": "后缀",
+                "help": "两者皆可包含 {token} 作为编号；后缀会为每个名称附加一个计数。"
+              },
+              "option": {
+                "regex": "使用正则表达式",
+                "regexDescription": "将寻找文本视为正则表达式；在替换中使用 $1、$2 参照群组。",
+                "caseSensitive": "区分大小写",
+                "allOccurrences": "取代所有出现的项目"
+              },
+              "case": {
+                "label": "转换大小写",
+                "none": "不变更",
+                "lower": "小写",
+                "upper": "大写",
+                "title": "标题大小写",
+                "capitalize": "首字大写"
+              },
+              "numbering": {
+                "enable": "激活编号",
+                "help": "在寻找、替换、前缀或后缀文本中插入 {token} 作为编号应出现的位置。",
+                "start": "起始于",
+                "step": "步进",
+                "padding": "最小位数"
+              },
+              "preview": {
+                "title": "预览",
+                "original": "原始",
+                "newName": "新名称",
+                "unchanged": "未变更",
+                "conflict": "名称已在使用中",
+                "duplicate": "重复目标",
+                "invalid": "无效名称",
+                "invalidRegex": "无效的正则表达式",
+                "empty": "未选取任何文件。"
+              },
+              "summary": "{changed} / {total} 将被重命名",
+              "conflictWarning": "请在重命名前解决标示的名称冲突。"
+            },
+            "largestDirectories": {
+              "title": "最大目录",
+              "empty": "找不到任何目录。"
+            },
+            "searchFiles": {
+              "title": "搜索文件",
+              "placeholder": "搜索文件...",
+              "advancedFilters": "高端筛选",
+              "pathPatterns": "路径模式",
+              "include": "包含",
+              "exclude": "排除",
+              "caseInsensitive": "不区分大小写",
+              "fileContent": "文件内容",
+              "searchText": "搜索文本",
+              "maxFileSize": "最大文件大小",
+              "includeOversized": "包含超大文件",
+              "includeOversizedDescription": "包含匹配其他筛选条件但过大而无法搜索的文档。",
+              "fileSize": "文件大小",
+              "minimum": "最小值",
+              "maximum": "最大值"
+            },
+            "pullFile": {
+              "title": "拉取文件",
+              "form": {
+                "fileUrl": "文件 URL",
+                "query": "查找"
+              },
+              "createdAs": "此文件将创建为 ",
+              "pull": "拉取"
+            },
+            "sftpDetails": {
+              "title": "SFTP 详细信息",
+              "launch": "启动"
+            }
+          }
+        },
+        "databases": {
+          "title": "数据库",
+          "subtitle": "已创建 {current} / {max} 个数据库。",
+          "tooltip": {
+            "limitReached": "此服务器最多只能使用 {max} 个数据库。"
+          },
+          "table": {
+            "columns": {
+              "locked": "已锁定？"
+            }
+          },
+          "button": {
+            "rotatePassword": "轮换密码"
+          },
+          "form": {
+            "databaseName": "数据库名称"
+          },
+          "modal": {
+            "createDatabase": {
+              "title": "创建数据库",
+              "toast": {
+                "created": "数据库已创建。"
+              },
+              "form": {
+                "noHostsFound": "找不到主机"
+              }
+            },
+            "editDatabase": {
+              "title": "编辑数据库",
+              "toast": {
+                "updated": "数据库已更新。"
+              }
+            },
+            "databaseDetails": {
+              "title": "数据库连接详细信息",
+              "toast": {
+                "passwordRotated": "密码已轮换。"
+              },
+              "form": {
+                "jdbcConnectionString": "JDBC 连接字符串"
+              }
+            },
+            "recreateDatabase": {
+              "title": "确认重新创建数据库",
+              "content": "重新创建数据库会永久删除 **{name}** 数据库中的所有数据，并以相同连接详细信息创建新的数据库。",
+              "toast": {
+                "recreated": "数据库已重新创建。"
+              }
+            },
+            "deleteDatabase": {
+              "title": "确认删除数据库",
+              "content": "删除数据库是永久操作，无法复原。这会永久删除 **{name}** 数据库并移除所有相关数据。",
+              "toast": {
+                "deleted": "数据库已删除。"
+              }
+            }
+          }
+        },
+        "schedules": {
+          "title": "调度",
+          "subtitle": "已创建 {current} / {max} 个调度。",
+          "dropzone": {
+            "title": "将一些文件拖放到此处以导入为调度",
+            "subtitle": "放开即可开始导入"
+          },
+          "tooltip": {
+            "limitReached": "此服务器最多只能使用 {max} 个调度。"
+          },
+          "table": {
+            "columns": {
+              "lastRun": "上次运行",
+              "lastFailure": "上次失败",
+              "status": "状态"
+            }
+          },
+          "button": {
+            "trigger": "触发",
+            "triggerWithCondition": "触发（不要略过条件）",
+            "triggerSkipCondition": "触发（略过条件）",
+            "addTrigger": "添加触发器",
+            "addCondition": "添加条件",
+            "addStep": "添加步骤",
+            "createFirstStep": "创建第一个步骤",
+            "addOutput": "添加输出",
+            "addFile": "添加文件",
+            "exitEditor": "离开编辑器"
+          },
+          "toast": {
+            "imported": "调度已导入。",
+            "created": "调度已创建。",
+            "updated": "调度已更新。",
+            "deleted": "调度已删除。",
+            "triggered": "调度已触发。",
+            "exported": "调度已导出。",
+            "parseError": "无法剖析调度：{error}",
+            "step": {
+              "created": "调度步骤已创建。",
+              "updated": "调度步骤已更新。",
+              "deleted": "调度步骤已删除。"
+            }
+          },
+          "enum": {
+            "schedulePreConditionType": {
+              "none": "无",
+              "and": "AND（全部都必须为真）",
+              "or": "OR（任一为真即可）",
+              "not": "NOT（不得为真）",
+              "serverState": "服务器状态",
+              "uptime": "运行时间",
+              "cpuUsage": "CPU 使用量",
+              "memoryUsage": "内存使用量",
+              "diskUsage": "磁盘使用量",
+              "fileExists": "文件存在"
+            },
+            "scheduleConditionType": {
+              "none": "无",
+              "and": "AND（全部都必须为真）",
+              "or": "OR（任一为真即可）",
+              "not": "NOT（不得为真）",
+              "variableExists": "变量存在",
+              "variableContains": "变量包含",
+              "variableEquals": "变量等于",
+              "variableStartsWith": "变量开头为",
+              "variableEndsWith": "变量结尾为"
+            },
+            "scheduleComparator": {
+              "smallerThan": "小于",
+              "smallerThanOrEqual": "小于或等于",
+              "equal": "等于",
+              "greaterThanOrEqual": "大于或等于",
+              "greaterThan": "大于"
+            }
+          },
+          "modal": {
+            "createSchedule": {
+              "title": "创建调度"
+            },
+            "updateSchedule": {
+              "title": "更新调度"
+            },
+            "deleteSchedule": {
+              "title": "确认删除调度",
+              "content": "你确定要从此服务器删除 {name} 吗？"
+            },
+            "createStep": {
+              "title": "创建调度步骤"
+            },
+            "editStep": {
+              "title": "编辑调度步骤"
+            },
+            "deleteStep": {
+              "title": "确认删除调度步骤",
+              "content": "你确定要删除此调度步骤吗？"
+            }
+          },
+          "view": {
+            "badge": {
+              "running": "运行中"
+            },
+            "tooltip": {
+              "cannotTrigger": "无法触发已停用的调度"
+            },
+            "tabs": {
+              "actions": "动作",
+              "conditions": "条件",
+              "triggers": "触发器"
+            },
+            "sections": {
+              "actions": "调度动作",
+              "preConditions": "调度前置条件",
+              "triggers": "调度触发器"
+            },
+            "alert": {
+              "noActions": "此调度未设置任何动作",
+              "noTriggers": "此调度未设置任何触发器"
+            }
+          },
+          "form": {
+            "scheduleName": "调度名称",
+            "triggersList": "触发器",
+            "triggerNumber": "触发器 {number}",
+            "actionType": "动作类型",
+            "conditionType": "条件类型",
+            "serverState": "服务器状态",
+            "comparator": "比较器",
+            "rootPath": "根路径",
+            "outputInto": "输出到",
+            "caseInsensitive": "不区分大小写",
+            "ignoreFailure": "忽略失败",
+            "runInForeground": "在前景运行"
+          },
+          "condition": {
+            "variable": "变量",
+            "equals": "等于",
+            "contains": "包含",
+            "startsWith": "开头为",
+            "endsWith": "结尾为",
+            "allMustBeTrue": "所有条件都必须为真：",
+            "anyMustBeTrue": "任一条件必须为真：",
+            "mustNotBeTrue": "条件不得为真："
+          },
+          "preCondition": {
+            "valueSeconds": "值（秒）",
+            "valuePercent": "值（%）",
+            "value": "值"
+          },
+          "triggers": {
+            "cron": {
+              "title": "Cron",
+              "form": {
+                "cronSchedule": "Cron 调度"
+              },
+              "card": {
+                "content": "在 Cron 间隔 {schedule} 运行，下次运行为 {timestamp}，上次运行为 {lastTimestamp}。"
+              },
+              "invalidCron": "无效的 cron 表达式"
+            },
+            "powerAction": {
+              "title": "电源动作",
+              "card": {
+                "content": "当要求电源动作 `{action}` 时。"
+              }
+            },
+            "serverState": {
+              "title": "服务器状态",
+              "card": {
+                "content": "当达到服务器状态 `{state}` 时。"
+              }
+            },
+            "backupStatus": {
+              "title": "备份状态",
+              "form": {
+                "backupStatus": "备份状态"
+              },
+              "card": {
+                "content": "当备份达到状态 `{status}` 时。"
+              }
+            },
+            "consoleLine": {
+              "title": "主控台行",
+              "card": {
+                "content": "当主控台输出到达包含 `{contains}` 的行时"
+              }
+            },
+            "crash": {
+              "title": "当机",
+              "card": {
+                "content": "当服务器当机时。"
+              }
+            }
+          },
+          "renderer": {
+            "noActionSelected": "选取要设置的动作类型",
+            "noActionDetails": "没有可用的动作详细信息",
+            "ignoreFailure": "忽略失败：{value}",
+            "foreground": "前景：{value}"
+          },
+          "steps": {
+            "empty": {
+              "title": "未设置步骤",
+              "description": "此调度尚未有任何步骤。添加一些动作即可开始。"
+            },
+            "sleep": {
+              "title": "等待",
+              "form": {
+                "duration": "持续时间（毫秒）"
+              },
+              "renderer": {
+                "compact": "等待 {duration}ms"
+              }
+            },
+            "ensure": {
+              "title": "确保",
+              "renderer": {
+                "compact": "确保符合某个条件"
+              }
+            },
+            "format": {
+              "title": "格式化",
+              "form": {
+                "formatString": "格式字符串",
+                "formatStringDescription": "格式字符串。可以通过将变量包装在 {wrapper} 中来包含它们。"
+              },
+              "renderer": {
+                "compact": "将字符串格式化到 {outputInto}"
+              }
+            },
+            "matchRegex": {
+              "title": "比对 Regex",
+              "form": {
+                "input": "输入",
+                "regex": "Regex",
+                "outputs": "输出",
+                "outputNumber": "输出 {number}"
+              },
+              "renderer": {
+                "compact": "使用 regex {regex} 比对 {input}"
+              }
+            },
+            "waitForConsoleLine": {
+              "title": "等待主控台行",
+              "form": {
+                "timeout": "逾时（毫秒）"
+              },
+              "renderer": {
+                "compact": "等待 {timeout} 直到主控台行包含 {contains}",
+                "detail": {
+                  "lineContains": "行必须包含：{contains}",
+                  "caseInsensitive": "不区分大小写：{value}",
+                  "timeout": "逾时：{timeout}"
+                }
+              }
+            },
+            "sendCommand": {
+              "title": "发送指令",
+              "renderer": {
+                "compact": "运行 {command}",
+                "detail": {
+                  "command": "指令：{command}"
+                }
+              }
+            },
+            "sendPower": {
+              "title": "发送电源信号",
+              "renderer": {
+                "compact": "运行 {action}",
+                "detail": {
+                  "powerAction": "电源动作：{action}"
+                }
+              }
+            },
+            "createBackup": {
+              "title": "创建备份",
+              "form": {
+                "backupName": "备份名称"
+              },
+              "renderer": {
+                "compact": "创建 {name}",
+                "detail": {
+                  "backupName": "备份名称：{name}",
+                  "ignoredFiles": "忽略的文件：{files}"
+                }
+              }
+            },
+            "createDirectory": {
+              "title": "创建目录",
+              "renderer": {
+                "compact": "在 {root} 创建 {name}",
+                "detail": {
+                  "directory": "目录：{name}",
+                  "root": "根目录：{root}"
+                }
+              }
+            },
+            "writeFile": {
+              "title": "写入文件",
+              "form": {
+                "content": "内容",
+                "appendToFile": "附加到文件"
+              },
+              "renderer": {
+                "compact": "写入 {file}",
+                "detail": {
+                  "file": "文件：{file}",
+                  "append": "附加：{value}"
+                }
+              }
+            },
+            "copyFile": {
+              "title": "拷贝文件",
+              "form": {
+                "sourceFile": "来源文件"
+              },
+              "renderer": {
+                "compact": "将 {file} 拷贝到 {destination}",
+                "detail": {
+                  "from": "来源：{file}",
+                  "to": "目的地：{destination}"
+                }
+              }
+            },
+            "deleteFiles": {
+              "title": "删除文件",
+              "form": {
+                "filesToDelete": "要删除的文件"
+              },
+              "renderer": {
+                "compact": "删除 {files}",
+                "detail": {
+                  "root": "根目录：{root}",
+                  "files": "文件：{files}"
+                }
+              }
+            },
+            "renameFiles": {
+              "title": "重命名文件",
+              "form": {
+                "files": "文件",
+                "from": "从",
+                "to": "到"
+              },
+              "renderer": {
+                "compact": "重命名 {files}",
+                "detail": {
+                  "root": "根目录：{root}",
+                  "files": "文件：{files}"
+                }
+              }
+            },
+            "compressFiles": {
+              "title": "压缩文件",
+              "form": {
+                "filesToCompress": "要压缩的文件"
+              },
+              "renderer": {
+                "compact": "将 {root} 中的 {files} 压缩为 {name}",
+                "detail": {
+                  "output": "输出：{name}",
+                  "root": "根目录：{root}",
+                  "format": "格式：{format}",
+                  "files": "文件：{files}"
+                }
+              }
+            },
+            "decompressFile": {
+              "title": "解压缩文件",
+              "form": {
+                "file": "文件"
+              },
+              "renderer": {
+                "compact": "将 {file} 解压缩到 {root}",
+                "detail": {
+                  "file": "文件：{file}",
+                  "root": "根目录：{root}"
+                }
+              }
+            },
+            "updateStartupVariable": {
+              "title": "更新启动变量",
+              "renderer": {
+                "compact": "将 {variable} 设为 {value}",
+                "detail": {
+                  "variable": "变量：{variable}",
+                  "value": "值：{value}"
+                }
+              }
+            },
+            "updateStartupCommand": {
+              "title": "更新启动指令",
+              "renderer": {
+                "compact": "设为 {command}",
+                "detail": {
+                  "command": "指令：{command}"
+                }
+              }
+            },
+            "updateStartupDockerImage": {
+              "title": "更新 Docker 映像档",
+              "renderer": {
+                "compact": "设为 {image}",
+                "detail": {
+                  "image": "映像档：{image}"
+                }
+              }
+            }
+          }
+        },
+        "subusers": {
+          "title": "子用户",
+          "subtitle": "已创建 {current} / {max} 位子用户。",
+          "tooltip": {
+            "limitReached": "此服务器最多只能使用 {max} 位子用户。"
+          },
+          "table": {
+            "columns": {
+              "twoFactorEnabled": "已激活 2FA",
+              "permissions": "权限",
+              "ignoredFiles": "忽略的文件"
+            }
+          },
+          "modal": {
+            "createSubuser": {
+              "title": "创建子用户",
+              "toast": {
+                "created": "子用户已创建。"
+              },
+              "form": {
+                "emailPlaceholder": "输入此子用户应保存使用的电子邮件。",
+                "permissions": "权限",
+                "ignoredFilesDescription": "符合这些模式的文件和目录将对此子用户隐藏。使用 gitignore 风格的 glob 模式（例如 `*.env`、`secrets/`）。在模式前加上 `!` 可取消隐藏否则会被更广泛模式排除的路径。"
+              }
+            },
+            "updateSubuser": {
+              "title": "更新子用户",
+              "toast": {
+                "updated": "子用户已更新。"
+              }
+            },
+            "removeSubuser": {
+              "title": "确认移除子用户",
+              "content": "你确定要从此服务器移除 **{username}** 吗？",
+              "toast": {
+                "removed": "子用户已移除。"
+              }
+            }
+          }
+        },
+        "backups": {
+          "title": "备份",
+          "subtitle": "已创建 {current} / {max} 个备份。",
+          "tooltip": {
+            "limitReached": "此服务器最多只能使用 {max} 个备份。"
+          },
+          "table": {
+            "columns": {
+              "checksum": "校验和",
+              "files": "文件",
+              "locked": "已锁定？"
+            }
+          },
+          "button": {
+            "browse": "浏览"
+          },
+          "toast": {
+            "downloadStarted": "下载已开始。",
+            "restoringBackup": "正在还原备份..."
+          },
+          "modal": {
+            "createBackup": {
+              "title": "创建备份",
+              "toast": {
+                "created": "备份已创建。"
+              }
+            },
+            "editBackup": {
+              "title": "编辑备份",
+              "toast": {
+                "updated": "备份已更新。"
+              }
+            },
+            "restoreBackup": {
+              "title": "还原备份"
+            },
+            "deleteBackup": {
+              "title": "确认删除备份",
+              "content": "你确定要从此服务器删除 **{name}** 吗？",
+              "toast": {
+                "deleted": "备份已删除。"
+              }
+            },
+            "viewMetadata": {
+              "title": "备份中继数据"
+            }
+          }
+        },
+        "network": {
+          "title": "网络",
+          "subtitle": "已指派 {current} / {max} 个分配。",
+          "tooltip": {
+            "limitReached": "此服务器最多只能使用 {max} 个分配。"
+          },
+          "table": {
+            "columns": {
+              "hostname": "主机名称",
+              "port": "连接端口"
+            }
+          },
+          "toast": {
+            "created": "分配已创建。",
+            "updated": "分配已更新。",
+            "removed": "分配已移除。",
+            "setPrimary": "分配已设为主要。",
+            "unsetPrimary": "分配已取消主要。"
+          },
+          "modal": {
+            "editAllocation": {
+              "title": "编辑分配"
+            },
+            "removeAllocation": {
+              "title": "确认移除分配",
+              "content": "你确定要从此服务器移除 **{allocation}** 吗？"
+            }
+          }
+        },
+        "startup": {
+          "title": "启动",
+          "variables": "变量",
+          "dockerImageDescription": "用来运行此服务器的 Docker 映像档。可以改用不同的映像档。",
+          "dockerImageDescriptionCustom": "用来运行此服务器的 Docker 映像档。此值由管理员设置，无法变更。",
+          "toast": {
+            "startupCommandUpdated": "启动指令已更新。",
+            "dockerImageUpdated": "Docker 映像档已更新。",
+            "variablesUpdated": "变量已更新。"
+          },
+          "modal": {
+            "unsavedChanges": {
+              "title": "未保存的变更",
+              "content": "你的启动变量有未保存的变更。你确定要离开此页面吗？若离开，变更将会遗失。"
+            }
+          },
+          "noVariables": "找不到此服务器的启动变量。"
+        },
+        "mounts": {
+          "title": "挂载",
+          "table": {
+            "columns": {
+              "target": "目标",
+              "mounted": "已挂载",
+              "readOnly": "唯读"
+            }
+          },
+          "button": {
+            "attach": "附加",
+            "detach": "卸离"
+          },
+          "modal": {
+            "attachMount": {
+              "title": "附加挂载",
+              "content": "你要将 **{name}** 附加到 `{target}` 吗？",
+              "toast": {
+                "attached": "{name} 已挂载到你的服务器。"
+              }
+            },
+            "detachMount": {
+              "title": "卸离挂载",
+              "content": "你要将 **{name}** 从 `{target}` 卸离吗？",
+              "toast": {
+                "detached": "{name} 已从你的服务器移除。"
+              }
+            }
+          }
+        },
+        "settings": {
+          "title": "设置",
+          "debugInformation": {
+            "title": "调试信息",
+            "form": {
+              "nodeName": "节点（UUID）",
+              "locationName": "位置（UUID）",
+              "serverUuid": "服务器 UUID"
+            }
+          },
+          "rename": {
+            "title": "重命名服务器",
+            "toast": {
+              "renamed": "服务器已重命名。"
+            }
+          },
+          "timezone": {
+            "title": "时区",
+            "toast": {
+              "updated": "服务器时区已更新。"
+            }
+          },
+          "autokill": {
+            "title": "自动强制终止",
+            "form": {
+              "secondsUntilAutoKill": "自动强制终止前秒数"
+            },
+            "toast": {
+              "updated": "服务器自动强制终止已更新。"
+            }
+          },
+          "autostart": {
+            "title": "自动启动",
+            "form": {
+              "behavior": "行为"
+            },
+            "toast": {
+              "updated": "服务器自动启动行为已更新。"
+            }
+          },
+          "reinstall": {
+            "title": "重新安装服务器",
+            "button": "重新安装服务器",
+            "content": "重新安装服务器会先停止服务器，然后重新运行最初设置服务器的安装脚本。**此过程中可能会删除或修改某些文件，请先备份数据再继续。**",
+            "modal": {
+              "title": "重新安装服务器",
+              "button": "重新安装",
+              "toast": {
+                "reinstalling": "正在重新安装服务器..."
+              }
+            }
+          }
+        },
+        "activity": {
+          "title": "活动",
+          "button": {
+            "clearUserFilter": "清除用户筛选"
+          }
+        }
+      }
+    }
+  }
+}
